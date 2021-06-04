@@ -1939,14 +1939,10 @@
                         </p>
                     
                         <div class="ta-center" style="min-width: 45%; padding-right: 5vw;">
-                            <!-- <img src="https://wseo.pw/images/audit/SEO-audit3.jpg" style="max-width: 100%;height: auto;"
-                                width="550" height="304" class="wslazy"
-                                data-srcset="https://wseo.pw/images/audit/SEO-audit3.jpg 100w"
-                                srcset="https://wseo.pw/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Процесс планирование"> -->
                                 <img src="image-seo/SEO-audit3.jpg" style="max-width: 100%;height: auto;"
                                 width="550" height="304" class="wslazy" 
-                                data-srcset="image-seo/SEO-audit3.jpg 100w" sizes="100vw" decoding="async"
+                                data-srcset="image-seo/SEO-audit3.jpg 100w"
+                                     srcset="https://wseo.pw/images/empty-300x200.svg 100w"  sizes="100vw" decoding="async"
                                 loading="lazy" alt="Процесс планирование">  
                                 
                         </div>
@@ -2016,15 +2012,11 @@
                             <p>Отчёт удобен в использовании и подробно структурирован.</p>
                         </div>
                         <div style="min-width: 45%; padding-left: 5vw;">
-                            <!-- <img src="https://wseo.pw/images/audit/check-list.png"
-                                style="max-width: 100%;height: auto;" width="550" height="337" class="wslazy"
-                                data-srcset="https://wseo.pw/images/audit/check-list.png 100w"
-                                srcset="https://wseo.pw/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Check list"> -->
                             <img src="image-seo/check-list.png"
                                 style="max-width: 100%;height: auto;" width="550" height="337" class="wslazy"
-                                data-srcset="image-seo/check-list.png.jpg 100w"
-                                sizes="100vw" decoding="async"
+                                data-srcset="image-seo/check-list.png 100w"
+                                 srcset="https://wseo.pw/images/empty-300x200.svg 100w"
+                                 sizes="100vw" decoding="async"
                                 loading="lazy" alt="Check list">
                         </div>
 
@@ -2647,23 +2639,23 @@
 
 
         async function wsloadlibs() {
-            await wsloadScript("/js/wseo.js", true);
+            await wsloadScript("https://wseo.pw/js/wseo.js", true);
             await lozad('.wslazy').observe();
             console.log("wseo done");
 
             return true;
         }
         async function wsloadlibsajax() {
-            await wsloadScript("/js/ajax-wseo.js", true);
+            await wsloadScript("https://wseo.pw/js/ajax-wseo.js", true);
 
             console.log("wseoajax done");
             return true;
         }
         async function wsloadmetrics() {
-            await wsloadScript("/js/yandex-metrika.js", true);
+            await wsloadScript("https://wseo.pw/js/yandex-metrika.js", true);
             await wsloadScript("https://www.googletagmanager.com/gtag/js?id=UA-132332777-1", true);
-            await wsloadScript("/js/google-analytics.js", true);
-            await wsloadScript("/js/fb-pixel.js", true);
+            await wsloadScript("https://wseo.pw/js/google-analytics.js", true);
+            await wsloadScript("https://wseo.pw/js/fb-pixel.js", true);
 
             console.log("metrics done");
             return true;
