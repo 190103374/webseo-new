@@ -16,7 +16,7 @@
             flex-flow: wrap;
         }
 
-        .ws-mnblock>* {
+        .ws-mnblock > * {
             width: 100%;
             order: 2;
         }
@@ -30,6 +30,59 @@
         }
 
         /*END style WS */
+    </style>
+    <style>
+        .ash3 {
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        .h3tt {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        @media (min-width: 500px) {
+            .h3tt {
+                font-size: 22px;
+            }
+        }
+
+        @media (min-width: 767px) {
+            .h3tt {
+                font-size: 24px;
+            }
+        }
+
+        ul.greenp {
+            list-style: none;
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        ul.greenp li {
+            position: relative;
+            padding-left: 1.7em;
+            margin: 10px 0;
+            color: #4F4F4F;
+        }
+
+        ul.greenp li b {
+            color: #000000;
+        }
+
+        ul.greenp li:before {
+            content: '';
+            display: block;
+            height: 11px;
+            width: 11px;
+            background-color: #87B948;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 6px;
+
+        }
     </style>
     <title>Аудит семантической вёрстки сайта от SEO студии wseo.kz</title>
     <meta name="description" content="Аудит HTML5 семантической вёрстки
@@ -58,7 +111,7 @@
 
 
     <link rel="stylesheet" href="https://wseo.kz/css/app.css" media="print"
-        onload="this.media='all'; this.onload=null;">
+          onload="this.media='all'; this.onload=null;">
 
     <style>
         * {
@@ -635,30 +688,30 @@
             top: -7px;
         }
 
-        .mainmenu .menu-btn:checked~.blfon {
+        .mainmenu .menu-btn:checked ~ .blfon {
             display: block;
             transition: width .2s ease-out;
             width: 100vw;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .menu-icon {
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon {
             padding: 24px 24px;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .menu-icon .navicon {
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon .navicon {
             background: transparent;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .menu-icon .navicon:before {
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon .navicon:before {
             transform: rotate(-45deg);
         }
 
-        .mainmenu .menu-btn:checked~.menublock .menu-icon .navicon:after {
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon .navicon:after {
             transform: rotate(45deg);
         }
 
-        .mainmenu .menu-btn:checked~.menublock .menu-icon:not(.steps) .navicon:before,
-        .mainmenu .menu-btn:checked~.menublock .menu-icon:not(.steps) .navicon:after {
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon:not(.steps) .navicon:before,
+        .mainmenu .menu-btn:checked ~ .menublock .menu-icon:not(.steps) .navicon:after {
             top: 0;
         }
 
@@ -677,7 +730,7 @@
             padding: 0 12px;
         }
 
-        .mainmenu .menu-btn:checked~.menublock {
+        .mainmenu .menu-btn:checked ~ .menublock {
             width: 70vw;
             /*transition: height 0s ease-out;*/
             transition: height .3s ease-out;
@@ -707,7 +760,7 @@
             }
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav {
             padding: 50px 24px 20px;
             text-align: left;
         }
@@ -723,7 +776,7 @@
             flex-wrap: wrap;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav ul {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav ul {
             font-size: 16px;
             justify-content: center;
             /*flex-direction: column;*/
@@ -736,7 +789,7 @@
             order: 1;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li {
             display: block;
             padding: 10px 0;
             width: 182px;
@@ -748,28 +801,28 @@
             display: none;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc {
             display: block;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc ul {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc ul {
             display: flex;
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc ul li {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc ul li {
             width: 60px;
             text-align: center;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc ul li.hphone {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc ul li.hphone {
             font-size: 1.1em;
             order: 0;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc ul li.hphone {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc ul li.hphone {
             order: 1;
             text-align: center;
             padding-top: 50px;
@@ -777,7 +830,7 @@
             width: 100%;
         }
 
-        .mainmenu .menu-btn:checked~.menublock .mbnav li.soccc ul li .iwsvg {
+        .mainmenu .menu-btn:checked ~ .menublock .mbnav li.soccc ul li .iwsvg {
             width: 30px;
             height: 30px;
         }
@@ -964,11 +1017,11 @@
             list-style: none;
         }
 
-        .ws-aspect-ratio> :first-child {
+        .ws-aspect-ratio > :first-child {
             width: 100%;
         }
 
-        .ws-aspect-ratio>img {
+        .ws-aspect-ratio > img {
             height: auto;
         }
 
@@ -993,7 +1046,7 @@
             padding-bottom: 66.67%;
         }
 
-        .ws-aspect-ratio> :first-child {
+        .ws-aspect-ratio > :first-child {
             position: absolute;
             top: 0;
             left: 0;
@@ -1091,20 +1144,18 @@
             transition: all 0.35s;
         }
 
-        .checkquest:checked+.wsquest .tab-label {
+        .checkquest:checked + .wsquest .tab-label {
             color: #090;
         }
 
-        .checkquest:checked+.wsquest .tab-label::after {
+        .checkquest:checked + .wsquest .tab-label::after {
             transform: rotate(90deg);
         }
 
-        .checkquest:checked~.wsanswer {
+        .checkquest:checked ~ .wsanswer {
             max-height: 300vh;
             padding: 1em;
         }
-
-
 
 
         .time-label {
@@ -1200,13 +1251,13 @@
             }
         }
 
-        .leftnav>nav {
+        .leftnav > nav {
             display: block;
             margin: 25px;
             line-height: 1.2;
         }
 
-        .leftnav>nav ol {
+        .leftnav > nav ol {
             list-style: none;
             margin: 0 0 0 10px;
             padding: 0;
@@ -1217,7 +1268,7 @@
             /*justify-content: center;*/
         }
 
-        .leftnav>nav ol li {
+        .leftnav > nav ol li {
             margin-bottom: 25px;
             width: 48%;
             display: block;
@@ -1231,7 +1282,7 @@
                 align-items: flex-start;
             }
 
-            .leftnav>nav {
+            .leftnav > nav {
                 display: block;
                 margin: 35px 10px;
                 position: sticky;
@@ -1239,16 +1290,16 @@
                 font-size: 1.15em;
             }
 
-            .leftnav>nav ol {
+            .leftnav > nav ol {
                 margin: 0 15px;
                 flex-direction: column;
             }
 
-            .leftnav>nav ol li {
+            .leftnav > nav ol li {
                 width: 100%;
             }
 
-            .is_index .leftnav>.centerwrap.contentblock.contentblock {
+            .is_index .leftnav > .centerwrap.contentblock.contentblock {
                 margin: 35px 0;
             }
         }
@@ -1495,7 +1546,7 @@
             cursor: pointer;
         }
 
-        .copybtn:hover~.copytooltip {
+        .copybtn:hover ~ .copytooltip {
             display: inline;
         }
 
@@ -1573,7 +1624,6 @@
     <meta name="theme-color" content="#fafafa">
 
 
-
     <script>
         if ('serviceWorker' in navigator) {
             caches.keys().then(function (names) {
@@ -1594,165 +1644,281 @@
 <body class="ws-mnblock">
 
 
+<div class="header_top headertop ws-firsttop"> &nbsp;</div>
+<div class="main_header is_index ws-secondtop">
+    <div id="app">
+        <div class="banner" itemscope itemtype="https://schema.org/Product">
+            <link itemprop="mainEntityOfPage" href="https://wseo.kz/new-audit/layout">
+            <link itemprop="additionalType" href="https://schema.org/Service"/>
+            <meta itemprop="serviceType" content="Аудит семантической
+                        вёрстки сайта"/>
+            <link itemprop="image" href="https://wseo.kz/images/uslugi/audit-3in1-16x9.jpg"/>
 
-    <div class="header_top headertop ws-firsttop"> &nbsp; </div>
-    <div class="main_header is_index ws-secondtop">
-        <div id="app">
-            <div class="banner" itemscope itemtype="https://schema.org/Product">
-                <link itemprop="mainEntityOfPage" href="https://wseo.kz/new-audit/layout">
-                <link itemprop="additionalType" href="https://schema.org/Service" />
-                <meta itemprop="serviceType" content="Аудит семантической
-                        вёрстки сайта" />
-                <link itemprop="image" href="https://wseo.kz/images/uslugi/audit-3in1-16x9.jpg" />
+            <div class="centerwrap relative">
+                <div id="js-headertext" class="headertext">
+                    <h1 itemprop="name">Анализ семантической верстки html5 на сайте</h1>
 
-                <div class="centerwrap relative">
-                    <div id="js-headertext" class="headertext">
-                        <h1 itemprop="name">Анализ семантической верстки html5 на сайте</h1>
-
-                        <span class="headertext_subtitle" itemprop="description">
+                    <span class="headertext_subtitle" itemprop="description">
                             Правильно ли поисковые системы понимают
                             содержание вашего сайта?<br>Давайте это
                             проверим.
                         </span>
-                        <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <meta itemprop="bestRating" content="5">
-                            <meta itemprop="worstRating" content="1">
-                            <meta itemprop="ratingValue" content="4.975">
-                            <meta itemprop="ratingCount" content="40">
-                        </div>
-                        <div itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
-                            <meta itemprop="name" content="Улучшатель
-                                    сайтов" />
-                        </div>
-                        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                            <link itemprop="availability" href="https://schema.org/OnlineOnly" />
-                            <link itemprop="url" href="https://wseo.kz/new-audit/layout">
-                            <form id="topform" onsubmit="return false;" class="find-service">
+                    <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <meta itemprop="bestRating" content="5">
+                        <meta itemprop="worstRating" content="1">
+                        <meta itemprop="ratingValue" content="4.975">
+                        <meta itemprop="ratingCount" content="40">
+                    </div>
+                    <div itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+                        <meta itemprop="name" content="Улучшатель
+                                    сайтов"/>
+                    </div>
+                    <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <link itemprop="availability" href="https://schema.org/OnlineOnly"/>
+                        <link itemprop="url" href="https://wseo.kz/new-audit/layout">
+                        <form id="topform" onsubmit="return false;" class="find-service">
 
-                                <input type="hidden" name="_token" value="pPRoiSuyWvwry6a1XgsDoYCker8bcqA5r6qJUtyp">
-                                <input name="service_id" type="hidden" value="">
-                                <input name="additionally_ids" type="hidden" value="">
-                                <div class="general-search">
-                                    <input name="domen" id="domen2" type="text" value="" placeholder="Введите домен"
-                                        class="form-control">
-                                    <span id="audit-button" class="audit-button">
+                            <input type="hidden" name="_token" value="pPRoiSuyWvwry6a1XgsDoYCker8bcqA5r6qJUtyp">
+                            <input name="service_id" type="hidden" value="">
+                            <input name="additionally_ids" type="hidden" value="">
+                            <div class="general-search">
+                                <input name="domen" id="domen2" type="text" value="" placeholder="Введите домен"
+                                       class="form-control">
+                                <span id="audit-button" class="audit-button">
                                         <button class="button
                                                 button-success" onclick="zakazOrderShowTop();
                                                 yaCounter51886235.reachGoal('go-to-order');
                                                 return false;"> Заказать
                                         </button>
                                     </span>
-                                </div>
-                                <label for="domen2" class="mt5
+                            </div>
+                            <label for="domen2" class="mt5
                                         example-search-link">Цена: <span itemprop="price">4490</span> <span
-                                        itemprop="priceCurrency" content="RUB">руб.</span> <br>Срок:
-                                    до 2 дня (обычно 19 часов)</label>
-                                <div class="clear"></div>
-                            </form>
-                            <script>
-                                function zakazOrderShowTop() {
-                                    let domeninputtop = document.getElementById('domen2');
-                                    let zakazformblocktop = document.getElementById('topform');
-                                    if (domeninputtop.value === '') {
-                                        zakazformblocktop.classList.add('iserror');
-                                    }
-                                    else {
-                                        zakazformblocktop.classList.remove('iserror');
+                                    itemprop="priceCurrency" content="RUB">руб.</span> <br>Срок:
+                                до 2 дня (обычно 19 часов)</label>
+                            <div class="clear"></div>
+                        </form>
+                        <script>
+                            function zakazOrderShowTop() {
+                                let domeninputtop = document.getElementById('domen2');
+                                let zakazformblocktop = document.getElementById('topform');
+                                if (domeninputtop.value === '') {
+                                    zakazformblocktop.classList.add('iserror');
+                                } else {
+                                    zakazformblocktop.classList.remove('iserror');
 
-                                        // Переносим указанный домен
-                                        let domeninput = document.getElementById('zakaz-domen');
-                                        domeninput.value = domeninputtop.value;
+                                    // Переносим указанный домен
+                                    let domeninput = document.getElementById('zakaz-domen');
+                                    domeninput.value = domeninputtop.value;
 
-                                        // Скролим до нужной позиции (встроену уже сразу в функцию zakazOrderShow
+                                    // Скролим до нужной позиции (встроену уже сразу в функцию zakazOrderShow
 
-                                        zakazOrderShow();
-                                    }
-                                    return true;
+                                    zakazOrderShow();
                                 }
-                            </script>
-                        </div>
-
+                                return true;
+                            }
+                        </script>
                     </div>
-                    <nav class="main-icons">
-                        <h6 style="display: none">Виды аудитов</h6>
-                        <a href="/new-audit/speed">
-                            <div class="main-nav-icon">
+
+                </div>
+                <nav class="main-icons">
+                    <h6 style="display: none">Виды аудитов</h6>
+                    <a href="/new-audit/speed">
+                        <div class="main-nav-icon">
                                 <span class="for-img">
                                     <img src="https://wseo.kz/images/main/icons.svg#speed" alt="Анализ скорости">
                                 </span>
-                                <span class="dib v-align-m ml10 for-txt">
+                            <span class="dib v-align-m ml10 for-txt">
                                     Анализ скорости
                                     <br>
                                     загрузки
                                 </span>
-                            </div>
-                        </a>
-                        <a href="/new-audit/seo">
-                            <div class="main-nav-icon">
+                        </div>
+                    </a>
+                    <a href="/new-audit/seo">
+                        <div class="main-nav-icon">
                                 <span class="for-img">
                                     <img src="https://wseo.kz/images/main/icons.svg#seo" alt="Технический аудит">
                                 </span>
-                                <span class="dib v-align-m ml10 for-txt">
+                            <span class="dib v-align-m ml10 for-txt">
                                     Технический
                                     <br>
                                     SEO аудит
                                 </span>
-                            </div>
-                        </a>
-                        <a href="/new-audit">
+                        </div>
+                    </a>
+                    <a href="/new-audit">
 
-                            <div class="main-nav-icon active">
+                        <div class="main-nav-icon active">
                                 <span class="for-img">
                                     <img src="https://wseo.kz/images/main/icons.svg#semantic"
-                                        alt="Проверка вёрстки HTML5">
+                                         alt="Проверка вёрстки HTML5">
                                 </span>
-                                <span class="dib v-align-m ml10 for-txt">
+                            <span class="dib v-align-m ml10 for-txt">
                                     Аудит вёрстки
                                     <br>
                                     семантической
                                 </span>
-                            </div>
-                        </a>
-                    </nav>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div>
+
+    <section class="bgLightGray">
+        <div class="lg-centerwrap centerwrap clearfix">
+            <h6 class="hideh">Статистика</h6>
+            <div class="pt20"></div>
+
+            <div class="weinnum flex nowrap-desctop ta-center
+                        jc-space-around fs20 fw700">
+
+                <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
+                    <div class="wenum c-orange fs46">
+                        <div class="pt20"></div>
+                        1000+
+                    </div>
+                    <div class="wetext ml10">Выполненных заказов</div>
+                </div>
+
+                <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
+                    <div class="wenum c-orange fs46">
+                        <div class="pt20"></div>
+                        100%
+                    </div>
+                    <div class="wetext ml10">Заказов успешно сдано</div>
+                </div>
+
+                <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
+                    <div class="wenum c-orange fs46">
+                        <div class="pt20"></div>
+                        100%
+                    </div>
+                    <div class="wetext ml10">Заказов сдано вовремя</div>
+                </div>
+            </div>
+
+            <div class="pt20"></div>
+            <div class="pt20"></div>
+        </div>
+    </section>
+
+
+    <div class="all_page is_index">
+
+        <style>
+            .discount .lgbg {
+                padding: 0;
+                color: #fff;
+            }
+        </style>
+        <article class="discount" style="overflow: hidden;">
+            <div class="lg-centerwrap centerwrap banner lgbg clearfix">
+                <div class="flex jc-space-around fd-column-mobile
+                            nowrap-desctop" style="color: #fff;background-color:
+                            rgba(23,104,225,.4);">
+                    <div class="mt10 mb10" style="min-width: 300px;
+                                width: 30%">
+                        <img src="https://wseo.kz/images/audit/picd.png" width="300" height="200" class="wslazy"
+                             data-srcset="https://wseo.kz/images/audit/picd.png
+                                    100w" srcset="https://wseo.kz/images/empty-300x200.svg
+                                    100w" sizes="100vw" decoding="async" loading="lazy" alt="Полный аудит сайта">
+
+                    </div>
+                    <div class="flex jc-space-around fd-column-mobile
+                                pb30" style="width: 70%;">
+                        <div class="mt10 mb10 mr5 ml5">
+                            <h2 class="fs30" style="color: #fff;
+                                        text-shadow: 0 0 10px #000; margin-top:
+                                        10px; padding-top: 0;">Скидка 30%</h2>
+                            <h3 class="fs24" style="color: #fff;
+                                        text-shadow: 0 0 10px #000;">при заказе
+                                аудита <span class="ws-nowrap">«3 в 1»</span></h3>
+                        </div>
+                        <div class="fs18 mt10 mb10">
+                            <ul style="list-style: none;margin: 10px 0 0
+                                        0;padding: 0;text-shadow: 0 0 10px
+                                        #000;">
+                                <li>Техническая оптимизация</li>
+                                <li>Скорость загрузки</li>
+                                <li>Семантическая вёрстка</li>
+                            </ul>
+                        </div>
+                        <a href="/new-audit" class="button
+                                    button-success mt10 mb10"> Перейти </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- start here -->
+
+        <div class="bgWhite wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt20"></div>
+                <div style="font-size: 1rem;padding-top: 2.5rem;">
+                    Каждый человек старается
+                    руководствоваться в жизни принципами
+                    логики. И если перед нами будет дерево,
+                    мы не скажем, что это – куст. А
+                    кирпичную стену уж наверняка не назовем
+                    деревянной. Видеть что-то и называть
+                    своими именами в науке называют
+                    семантикой. Такое понятие существует не
+                    только в лингвистике,
+                    web-разработчикам также хорошо известен
+                    термин семантической верстки
+                    веб-страницы. Прежде всего, давайте
+                    разберемся, что она собой представляет.
                 </div>
             </div>
         </div>
 
-    </div>
 
-
-    <div>
-
-        <section class="bgLightGray">
+        <section class="bgWhite wssctn">
             <div class="lg-centerwrap centerwrap clearfix">
-                <h6 class="hideh">Статистика</h6>
-                <div class="pt20"></div>
-
-                <div class="weinnum flex nowrap-desctop ta-center
-                        jc-space-around fs20 fw700">
-
-                    <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
-                        <div class="wenum c-orange fs46">
-                            <div class="pt20"></div>
-                            1000+
-                        </div>
-                        <div class="wetext ml10">Выполненных заказов</div>
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Что такое семантическая
+                        верстка сайта</h2>
+                </div>
+                <div class="flex jc-space-between nowrap-desctop">
+                    <div style="font-size: 1rem;">
+                        <p class="mb10">
+                            Поисковые системы «видят» сайт не так
+                            как мы. Для нас контент веб-страницы
+                            состоит из всевозможной текстовой
+                            информации, картинок, аудиодорожек,
+                            видеороликов. Для поискового бота любая
+                            страница – полотно кода с разметкой.
+                        </p>
+                        <blockquote class="mb10">
+                            <p>Метод верстки web-сайтов, при котором
+                                все блоки внутри кода страницы
+                                размечены специальными тегами
+                                называют семантической версткой.</p>
+                        </blockquote>
+                        <p>
+                            Другими словами это создание
+                            веб-страницы на языке HTML5 путем
+                            использования html5-тегов соответственно
+                            их значению. Семантическая разметка
+                            позволяет создать структуру страницы
+                            сайта с определенной логикой и
+                            последовательностью.
+                        </p>
                     </div>
-
-                    <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
-                        <div class="wenum c-orange fs46">
-                            <div class="pt20"></div>
-                            100%
-                        </div>
-                        <div class="wetext ml10">Заказов успешно сдано</div>
-                    </div>
-
-                    <div class="mb20 flex fd-row-mobile nowrap" style="padding: 0 10px;">
-                        <div class="wenum c-orange fs46">
-                            <div class="pt20"></div>
-                            100%
-                        </div>
-                        <div class="wetext ml10">Заказов сдано вовремя</div>
+                    <div style="min-width: 45%;">
+                        <img src="image/schema.jpg" style="max-width: 100%;height: auto;" width="570" height="344"
+                             class="wslazy" data-srcset="image/schema.jpg 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Схема структуры страницы">
                     </div>
                 </div>
 
@@ -1762,613 +1928,445 @@
         </section>
 
 
-
-
-        <div class="all_page is_index">
-
-            <style>
-                .discount .lgbg {
-                    padding: 0;
-                    color: #fff;
-                }
-            </style>
-            <article class="discount" style="overflow: hidden;">
-                <div class="lg-centerwrap centerwrap banner lgbg clearfix">
-                    <div class="flex jc-space-around fd-column-mobile
-                            nowrap-desctop" style="color: #fff;background-color:
-                            rgba(23,104,225,.4);">
-                        <div class="mt10 mb10" style="min-width: 300px;
-                                width: 30%">
-                            <img src="https://wseo.kz/images/audit/picd.png" width="300" height="200" class="wslazy"
-                                data-srcset="https://wseo.kz/images/audit/picd.png
-                                    100w" srcset="https://wseo.kz/images/empty-300x200.svg
-                                    100w" sizes="100vw" decoding="async" loading="lazy" alt="Полный аудит сайта">
-
-                        </div>
-                        <div class="flex jc-space-around fd-column-mobile
-                                pb30" style="width: 70%;">
-                            <div class="mt10 mb10 mr5 ml5">
-                                <h2 class="fs30" style="color: #fff;
-                                        text-shadow: 0 0 10px #000; margin-top:
-                                        10px; padding-top: 0;">Скидка 30%</h2>
-                                <h3 class="fs24" style="color: #fff;
-                                        text-shadow: 0 0 10px #000;">при заказе
-                                    аудита <span class="ws-nowrap">«3 в 1»</span></h3>
-                            </div>
-                            <div class="fs18 mt10 mb10">
-                                <ul style="list-style: none;margin: 10px 0 0
-                                        0;padding: 0;text-shadow: 0 0 10px
-                                        #000;">
-                                    <li>Техническая оптимизация</li>
-                                    <li>Скорость загрузки</li>
-                                    <li>Семантическая вёрстка</li>
-                                </ul>
-                            </div>
-                            <a href="/new-audit" class="button
-                                    button-success mt10 mb10"> Перейти </a>
-                        </div>
-                    </div>
+        <section class="wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Семантическая верстка и её взаимосвязь с работой поисковиков</h2>
                 </div>
-            </article>
+                <div style="font-size: 1rem;">
 
-
-
-            <!-- start here -->
-
-            <div class="bgWhite wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt20"></div>
-                    <div style="font-size: 1rem;padding-top: 2.5rem;">
-                        Каждый человек старается
-                        руководствоваться в жизни принципами
-                        логики. И если перед нами будет дерево,
-                        мы не скажем, что это – куст. А
-                        кирпичную стену уж наверняка не назовем
-                        деревянной. Видеть что-то и называть
-                        своими именами в науке называют
-                        семантикой. Такое понятие существует не
-                        только в лингвистике,
-                        web-разработчикам также хорошо известен
-                        термин семантической верстки
-                        веб-страницы. Прежде всего, давайте
-                        разберемся, что она собой представляет.
-                    </div>
-                </div>
-            </div>
-
-
-            <section class="bgWhite wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Что такое семантическая
-                            верстка сайта</h2>
-                    </div>
-                    <div class="flex jc-space-between nowrap-desctop">
-                        <div style="font-size: 1rem;">
-                            <p class="mb10">
-                                Поисковые системы «видят» сайт не так
-                                как мы. Для нас контент веб-страницы
-                                состоит из всевозможной текстовой
-                                информации, картинок, аудиодорожек,
-                                видеороликов. Для поискового бота любая
-                                страница – полотно кода с разметкой.
-                            </p>
-                            <blockquote class="mb10">
-                                <p>Метод верстки web-сайтов, при котором
-                                    все блоки внутри кода страницы
-                                    размечены специальными тегами
-                                    называют семантической версткой.</p>
-                            </blockquote>
-                            <p>
-                                Другими словами это создание
-                                веб-страницы на языке HTML5 путем
-                                использования html5-тегов соответственно
-                                их значению. Семантическая разметка
-                                позволяет создать структуру страницы
-                                сайта с определенной логикой и
-                                последовательностью.
-                            </p>
-                        </div>
-                        <div style="min-width: 45%;">
-                            <img src="image/schema.jpg" style="max-width: 100%;height: auto;" width="570" height="344"
-                                class="wslazy" data-srcset="image/schema.jpg 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Схема структуры страницы">
-                        </div>
-                    </div>
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
-                </div>
-            </section>
-
-
-            <section class="wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Семантическая верстка и её взаимосвязь с работой поисковиков</h2>
-                    </div>
-                    <div style="font-size: 1rem;">
-                        <style>
-                            .ash3 {
-                                margin-bottom: 20px;
-                                margin-top: 40px;
-                            }
-
-                            .h3tt {
-                                font-weight: bold;
-                                font-size: 18px;
-                            }
-
-                            @media (min-width: 500px) {
-                                .h3tt {
-                                    font-size: 22px;
-                                }
-                            }
-
-                            @media (min-width: 767px) {
-                                .h3tt {
-                                    font-size: 24px;
-                                }
-                            }
-
-                            ul.greenp {
-                                list-style: none;
-                                margin: 20px 0;
-                                padding: 0;
-                            }
-
-                            ul.greenp li {
-                                position: relative;
-                                padding-left: 1.7em;
-                                margin: 10px 0;
-                                color: #4F4F4F;
-                            }
-
-                            ul.greenp li b {
-                                color: #000000;
-                            }
-
-                            ul.greenp li:before {
-                                content: '';
-                                display: block;
-                                height: 11px;
-                                width: 11px;
-                                background-color: #87B948;
-                                border-radius: 50%;
-                                position: absolute;
-                                left: 0;
-                                top: 6px;
-
-                            }
-                        </style>
-
-                        <p>Качественная семантическая верстка шаблонной страницы
-                            сайта так же важна как правильно заложенный
-                            фундамент здания. Теги разметки являются
-                            индикаторами для поисковых ботов в плане понимания
-                            назначения и степени важности того или иного
-                            элемента. Выход 5 версии языка HTML ознаменовал
-                            появление множества новых тегов. Это существенно
-                            расширило возможности веб-разработок, ведь теперь
-                            можно и нужно размечать каждый элемент контента
-                            страницы. Благодаря разметке кода специальными
-                            тегами поисковики лучше понимают содержимое сайта и
-                            как его составляющие связаны между собой:
-                        </p>
-                        <ul class="greenp">
-                            <li>различают важные, второстепенные и не стоящие внимания текстовые блоки;</li>
-                            <li>находят важные слова и словосочетания, передающие суть страницы;</li>
-                            <li>распознают слова/фразы в прямом и переносном значении;</li>
-                            <li>определяют рекламные блоки;</li>
-                            <li>понимают принадлежность изображения (для дизайна страницы или как фото товара каталога)
-                                и
-                                т.д.</li>
-                        </ul>
-                        <p>Таким образом, семантическая верстка помогает машинным веб-агентам корректно анализировать
-                            страницу, повышать её ранжируемость, подготавливать расширенное описание сайта для его
-                            отображения в поисковой выдаче и т.д. Причем визуально веб-страница с семантической версткой
-                            не
-                            имеет видимых отличий от сайта, где этой верстки нет и в помине.
-                        </p>
-                        <p>Семантическая вёрстка в последнее время стала оказывать сильное влияние на продвижение сайтов
-                            в
-                            поиске Google. Об этом свидетельствуют заявления представителей поисковой системы и тестовые
-                            подтверждения SEO-экспертов. Подробности смотрите в видео на YouTube. </p>
-                        <div class="centerwrap clearfix">
-                            <div class="ta-center pt25 pb30">
-                                <div class="ws-aspect-ratio w16h9" style="max-width: 520px;margin: 0 auto;">
-                                    <iframe title="Видео с YouTube" style="border: none"
+                    <p>Качественная семантическая верстка шаблонной страницы
+                        сайта так же важна как правильно заложенный
+                        фундамент здания. Теги разметки являются
+                        индикаторами для поисковых ботов в плане понимания
+                        назначения и степени важности того или иного
+                        элемента. Выход 5 версии языка HTML ознаменовал
+                        появление множества новых тегов. Это существенно
+                        расширило возможности веб-разработок, ведь теперь
+                        можно и нужно размечать каждый элемент контента
+                        страницы. Благодаря разметке кода специальными
+                        тегами поисковики лучше понимают содержимое сайта и
+                        как его составляющие связаны между собой:
+                    </p>
+                    <ul class="greenp">
+                        <li>различают важные, второстепенные и не стоящие внимания текстовые блоки;</li>
+                        <li>находят важные слова и словосочетания, передающие суть страницы;</li>
+                        <li>распознают слова/фразы в прямом и переносном значении;</li>
+                        <li>определяют рекламные блоки;</li>
+                        <li>понимают принадлежность изображения (для дизайна страницы или как фото товара каталога)
+                            и
+                            т.д.
+                        </li>
+                    </ul>
+                    <p>Таким образом, семантическая верстка помогает машинным веб-агентам корректно анализировать
+                        страницу, повышать её ранжируемость, подготавливать расширенное описание сайта для его
+                        отображения в поисковой выдаче и т.д. Причем визуально веб-страница с семантической версткой
+                        не
+                        имеет видимых отличий от сайта, где этой верстки нет и в помине.
+                    </p>
+                    <p>Семантическая вёрстка в последнее время стала оказывать сильное влияние на продвижение сайтов
+                        в
+                        поиске Google. Об этом свидетельствуют заявления представителей поисковой системы и тестовые
+                        подтверждения SEO-экспертов. Подробности смотрите в видео на YouTube. </p>
+                    <div class="centerwrap clearfix">
+                        <div class="ta-center pt25 pb30">
+                            <div class="ws-aspect-ratio w16h9" style="max-width: 520px;margin: 0 auto;">
+                                <iframe title="Видео с YouTube" style="border: none"
                                         srcdoc="<head style='display:none;'><style style='display:none;'>*{padding:0;margin:0;box-sizing:border-box;display:block;width:100%;height:100%}a:before,a:after{position: absolute;content: '';left: 50%;top: 50%}a:before{margin: -4.9% 0 0 -7%;background: rgba(31,31,30,.8);padding-top: 9.8%;width: 14%;border-radius: 16% / 27%}a:after{margin: -1.9vw 0 0 -1vw;border: 2vw solid transparent;border-left: 3.8vw solid #fff}a:hover:before{background: #c0171c}</style></head><body><a href='https://www.youtube.com/embed/5eAOP2JmSxY?autoplay=1'><img src='https://img.youtube.com/vi/5eAOP2JmSxY/maxresdefault.jpg' alt=''></a></body>"
                                         src="https://www.youtube.com/embed/5eAOP2JmSxY?autoplay=1"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
-                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
                 </div>
-            </section>
 
-            <section class="bgWhite wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Зачем нужен аудит семантической верстки</h2>
-                    </div>
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+        <section class="bgWhite wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Зачем нужен аудит семантической верстки</h2>
+                </div>
+                <div style="font-size: 1rem;">
+                    <p class="mb10">
+                        По словам веб-специалистов, на практике трудно встретить правильно размеченную
+                        семантически страницу html5. Нечитаемый код, неправильно использованные теги,
+                        некорректно расположенная в боковой или рекламной колонке важная для страницы
+                        информация – одна-две технических ошибки способны запутать поисковик и в миг
+                        обрушить ранжируемость вашего сайта.
+                    </p>
+                    <p>А насколько сильна ваша уверенность в правильности семантики своей страницы? Вряд ли
+                        вы, как владелец сайта, захотите «нырять в дебри» языка html5 и проверять за
+                        разработчиками макета вашего сайта все тонкости. Для этого существует аудит
+                        семантической верстки html5, который лучше доверить специалисту. Анализ
+                        семантической разметки даст вам возможность быть уверенным в отсутствии критических
+                        ошибок и вовремя их исправить в случае обнаружения. </p>
+                </div>
+
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+        <section class="bgLightGray wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Частота аудита семантической верстки сайта</h2>
+                </div>
+
+                <div style="font-size: 1rem;">
+                    <p>Проверить семантическую верстку страницы необходимо в случае, если вы желаете улучшить свой
+                        сайт.
+                        Не лишним будет заказать анализ семантической верстки макета и верстальщикам, прежде чем
+                        посылать её на одобрение заказчику.
+                    </p>
+                    <p>Как часто стоит делать проверку семантики?</p>
+                    <ul class="greenp">
+                        <li>Впервые: сразу после запуска проекта. Без неё даже не советую начинать работать.</li>
+                        <li>Каждый раз: после изменения дизайна , добавления новых плагинов, расширения функционала
+                            страницы.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+
+        <section class="bgWhite wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Как выполняется аудит</h2>
+                </div>
+
+                <div class="flex jc-space-between nowrap-desctop">
                     <div style="font-size: 1rem;">
                         <p class="mb10">
-                            По словам веб-специалистов, на практике трудно встретить правильно размеченную
-                            семантически страницу html5. Нечитаемый код, неправильно использованные теги,
-                            некорректно расположенная в боковой или рекламной колонке важная для страницы
-                            информация – одна-две технических ошибки способны запутать поисковик и в миг
-                            обрушить ранжируемость вашего сайта.
+                            Со сроками и стоимостью моих работ по аудиту семантической верстки html5 вы можете
+                            ознакомиться в соответствующем блоке. Если вас устаивают условия, делайте заявку со
+                            ссылкой на проверяемый сайт и соответствующую оплату. По получению вашей информации
+                            и оплаты, я присылаю в ответ сообщение о начале работ над проверкой вашего сайта.
                         </p>
-                        <p>А насколько сильна ваша уверенность в правильности семантики своей страницы? Вряд ли
-                            вы, как владелец сайта, захотите «нырять в дебри» языка html5 и проверять за
-                            разработчиками макета вашего сайта все тонкости. Для этого существует аудит
-                            семантической верстки html5, который лучше доверить специалисту. Анализ
-                            семантической разметки даст вам возможность быть уверенным в отсутствии критических
-                            ошибок и вовремя их исправить в случае обнаружения. </p>
-                    </div>
+                        <p>
+                            Первым делом я выявляю три основных шаблонных страницы сайта и сквозные элементы или
+                            блоки, характерные для всех шаблонов. Сайт сайту – рознь, и шаблонных страниц может
+                            быть и больше, чем три. Однако в любом случае я начинаю аудит с трех главных.
+                        </p>
 
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
+                    </div>
+                    <div style="min-width: 45%;">
+                        <img src="image/kak-vypolnyaetsya-audit.png" style="max-width: 100%;height: auto;"
+                             width="700" height="242" class="wslazy"
+                             data-srcset="image/kak-vypolnyaetsya-audit.png 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Веб-специалист выполняющий аудит">
+                    </div>
                 </div>
-            </section>
 
-            <section class="bgLightGray wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Частота аудита семантической верстки сайта</h2>
+
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+
+        <section class="wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Что такое шаблонная страница</h2>
+                </div>
+                <div style="font-size: 1rem;">
+                    <p class="mb10">
+                        Делая небольшое отступление, для лучшего понимания давайте разберемся, что представляют
+                        собой шаблонные страницы. Это страницы, созданные по определённому шаблону (макету).
+                        Как пример возьмем сайт интернет-магазина женской одежды, где наверняка есть каталоги
+                        товаров. Представьте, что на картинке ниже отображаются товары из категории весенней
+                        одежды – по 4 товара в ряд.
+                    </p>
+                    <div class="ta-center" style="min-width: 45%;">
+                        <img src="image/shablonnaya-stranica.jpg" style="max-width: 100%;height: auto;" width="700"
+                             height="543" class="wslazy" data-srcset="image/shablonnaya-stranica.jpg 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Шаблонная страница">
                     </div>
+                </div>
 
+                <div class="flex jc-space-between nowrap-desctop pt25 pb30">
                     <div style="font-size: 1rem;">
-                        <p>Проверить семантическую верстку страницы необходимо в случае, если вы желаете улучшить свой
-                            сайт.
-                            Не лишним будет заказать анализ семантической верстки макета и верстальщикам, прежде чем
-                            посылать её на одобрение заказчику.
+                        <p class="mb10">
+                            Если мы перейдём в категорию зимней одежды, нам отобразится точно такой же шаблон
+                            страницы.
+                            Товары будут другие, но внешний макет страницы будет такой же, как и отображённый на
+                            картинке
+                            (4 товара в ряд). Это считается шаблонной страницей.
+                            Клик по товару откроет нам уже совсем другой шаблон страницы и её макет изменится.
+                            Там уже не будет отображаться 4 карточки в ряд.
+                            Шаблон будет состоять из картинки товара, его характеристик и т.д.
+
                         </p>
-                        <p>Как часто стоит делать проверку семантики?</p>
-                        <ul class="greenp">
-                            <li>Впервые: сразу после запуска проекта. Без неё даже не советую начинать работать.</li>
-                            <li>Каждый раз: после изменения дизайна , добавления новых плагинов, расширения функционала
-                                страницы.</li>
-                        </ul>
                     </div>
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
+                    <div style="min-width: 45%;">
+                        <img src="image/shablon-zimnej-odezhdy.png" style="max-width: 100%;height: auto;"
+                             width="700" height="329" class="wslazy"
+                             data-srcset="image/shablon-zimnej-odezhdy.png 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Шаблонная страница зимней одежды">
+                    </div>
                 </div>
-            </section>
+                <div style="font-size: 1rem;">
+                    <p class="mb10">
+                        Но какое бы изделие мы не открыли, у всех товаров будет одинаковый шаблон (слева картинка,
+                        справа цена, цвет, размеры, описание и т.д.) Это тоже считается шаблонной страницей.
+                        Если в семантической разметке макета где-то будет допущена ошибка, она затронет все
+                        категории или товары. А если в код шаблона товара, к примеру, внедрить кнопку, ею
+                        «обзаведутся» все товарные ячейки. Целесообразность аудита семантической разметки сайта
+                        становится очевидной. Исправление проблем одного шаблона влечёт за собой корректную
+                        генерацию всех товаров/категорий в правильной верстке.
+                    </p>
+                </div>
+
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
 
 
-            <section class="bgWhite wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Как выполняется аудит</h2>
+        <section class="bgWhite wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Составляющие анализа семантической разметки</h2>
+                </div>
+                <div style="font-size: 1rem;">
+                    <p>Некоторые блоки кода веб-страницы могут быть характерны только для мобильной версии
+                        веб-сайта, другие – только для десктопной. Поэтому проверке подлежат обе версии сайта.
+                        Пересмотр программного кода страниц я выполняю вручную. В рамках аудита отмечаю:
+                    </p>
+                    <ul class="greenp">
+                        <li>неправильное использование тегов разметки (&lt;header&gt;, &lt;article&gt;,
+                            &lt;section&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;aside&gt;);
+                        </li>
+                        <li>взаимосвязь и взаимодействие отдельных частей html-кода страницы между собой;</li>
+                        <li>информационную иерархию сайта: какой текст воспринимается поисковой системой основным, а
+                            какой – второстепенным;
+                        </li>
+                        <li>корректную разметку блоков, их расположение друг относительно друга и восприятие
+                            поисковиками;
+                        </li>
+                        <li>отличает ли поисковик рекламу от основного контента страницы;</li>
+                        <li>правильно ли распознаются навигационные элементы и т.д.</li>
+                    </ul>
+                    <p>По итогу аудита я формирую наглядный отчет аудита, где содержится подробное описание
+                        найденных ошибок и стоимость их исправления.</p>
+                </div>
+
+
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+
+        <section class="bgLightGray wssctn">
+            <div class="lg-centerwrap centerwrap clearfix">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Пример отчёта аудита</h2>
+                </div>
+
+                <div class="flex jc-space-between nowrap-desctop pt25 pb30">
+
+                    <div class="ta-center" style="min-width: 45%;">
+                        <img src="image/prilozheniya-trello.png" style="max-width: 100%;height: auto; " width="700"
+                             height="419" class="wslazy" data-srcset="image/prilozheniya-trello.png 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Главная страница Trello">
                     </div>
+                    <div style="font-size: 1rem; padding: 2vw;">
+                        <p>
+                            Я формирую результаты аудита семантической верстки html5 в отчет в приложении Trello.
+                            Его очень легко и удобно использовать даже новичкам. Документ состоит из карточек с
+                            отдельным аудитом по шаблонным страницам сайта (главная, категория,
+                            товар/услуга/статья). Отдельно вынесены итоги аудита сквозных элементов страницы, а
+                            также разметки Schema.org.
+                        </p>
+                        <p class="mb10">
+                            Каждая карточка содержит описание проверяемого шаблона или элемента с заготовкой перечня
+                            пунктов для проверки. Карточки предусматривают возможность обратной связи со мной в
+                            случае необходимости обсуждения оптимизации того или иного пункта.
+                        </p>
+                    </div>
+                </div>
 
-                    <div class="flex jc-space-between nowrap-desctop">
-                        <div style="font-size: 1rem;">
+                <div class="flex jc-space-between nowrap-desctop pt25 pb30 ta-center">
+
+                    <div style="min-width: 45%; padding: 1.2vw">
+                        <img src="image/zametka-v-trello.png" style="max-width: 100%;height: auto;" width="700"
+                             height="486" class="wslazy" data-srcset="image/zametka-v-trello.png 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Лист задании в Trello">
+                    </div>
+                    <div style="min-width: 45%; padding: 1.2vw">
+                        <img src="image/schityvaem-cenu-cherez-trello.png" style="max-width: 100%;height: auto;"
+                             width="700" height="485" class="wslazy"
+                             data-srcset="image/schityvaem-cenu-cherez-trello.png 100w"
+                             srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
+                             loading="lazy" alt="Лист считывание цену в Trello">
+                    </div>
+                </div>
+                <div style="font-size: 1rem;">
+                    <p class="mb10">
+                        После проверки формируется перечень проблем для исправления – для каждого сайта он будет
+                        индивидуальным. Также отдельно будут указаны проверенные мною пункты, где проблем обнаружено
+                        не было. По итогу аудита я просчитываю примерную стоимость исправления обнаруженных проблем.
+                        Цену и сроки выполнения работ указываю в отчёте в поле пользователя.
+                    </p>
+                </div>
+                <div class="pt20"></div>
+                <div class="pt20"></div>
+            </div>
+        </section>
+
+        <section class="faq wssctn">
+            <div class="wsanchor" id="faq"></div>
+            <div class="lg-centerwrap centerwrap clearfix mb20">
+                <div class="pt25 pb30">
+                    <h2 class="h2sect">Часто задаваемые вопросы</h2>
+                </div>
+                <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
+                         itemtype="https://schema.org/Question">
+                    <div class="wsanchor" id="h2-use"></div>
+                    <input class="checkquest" type="checkbox" id="chck-use">
+                    <h3 class="wsquest"><label class="tab-label" for="chck-use" itemprop="name">Что делать с
+                        результатами аудита дальше?</label></h3>
+                    <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <p>Отчёт позволит понять весь фронт работ и запланировать средства. Очень часто это
+                                является основной причиной заказа. Цены указываю по каждой ошибке. У некоторых её
+                                точно рассчитать невозможно, так как влияют дополнительные параметры. В таких
+                                случаях я ставлю стоимость «от» и «до». Моя цена может отличаться от других
+                                специалистов, но этих данных вам вполне хватит, чтобы рассчитать бюджет на все
+                                работы или только на важные исправления.</p>
+                            <div style="float: right;">
+                                <img src="image/conversation.png" width="64" height="64" class="wslazy"
+                                     data-srcset="image/conversation.png 100w"
+                                     srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw"
+                                     decoding="async" loading="lazy" alt="Иконка показывающий вопрос-ответ">
+                            </div>
+                            <p>В отчете все ошибки описаны подробно, даны понятные рекомендации по их исправлению.
+                                Получив
+                                результаты аудита семантической верстки html5, вы можете:
+                            </p>
+                            <ul class="greenp">
+                                <li>исправить всё самостоятельно;</li>
+                                <li>спрашивать любые уточнения прямо в карточках Trello-отчета;</li>
+                                <li>отправить данные своим разработчикам или дать им доступ к этому аудиту;</li>
+                                <li>заказать работу у меня по указанным в аудите ценам.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
+                         itemtype="https://schema.org/Question">
+                    <div class="wsanchor" id="h2-need"></div>
+                    <input class="checkquest" type="checkbox" id="chck-need">
+                    <h3 class="wsquest"><label class="tab-label" for="chck-need" itemprop="name">Что будет, если не
+                        заказывать аудит?</label></h3>
+                    <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
                             <p class="mb10">
-                                Со сроками и стоимостью моих работ по аудиту семантической верстки html5 вы можете
-                                ознакомиться в соответствующем блоке. Если вас устаивают условия, делайте заявку со
-                                ссылкой на проверяемый сайт и соответствующую оплату. По получению вашей информации
-                                и оплаты, я присылаю в ответ сообщение о начале работ над проверкой вашего сайта.
+                                «Если ты не идёшь вперёд, ты идёшь назад» – цитата классика как нельзя лучше
+                                отражает
+                                сегодняшний мир веб-разработок. Меняется всё: алгоритмы, инструменты, теги и
+                                варианты их
+                                использования. Бездействие в такой динамично меняющейся среде не приведет ни к чему
+                                хорошему. Ошибки так и останутся, да и сайт сам собой не поднимется в более высокие
+                                поисковые позиции.
+                                Аудит семантической верстки html5 необходим для продвижения сайта в ТОПовые позиции
+                                поисковой выдачи, что увеличит трафик пользователей на ваш ресурс.
                             </p>
-                            <p>
-                                Первым делом я выявляю три основных шаблонных страницы сайта и сквозные элементы или
-                                блоки, характерные для всех шаблонов. Сайт сайту – рознь, и шаблонных страниц может
-                                быть и больше, чем три. Однако в любом случае я начинаю аудит с трех главных.
-                            </p>
-
-                        </div>
-                        <div style="min-width: 45%;">
-                            <img src="image/kak-vypolnyaetsya-audit.png" style="max-width: 100%;height: auto;"
-                                width="700" height="242" class="wslazy"
-                                data-srcset="image/kak-vypolnyaetsya-audit.png 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Веб-специалист выполняющий аудит">
                         </div>
                     </div>
-
-
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
-                </div>
-            </section>
-
-
-            <section class="wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Что такое шаблонная страница</h2>
-                    </div>
-                    <div style="font-size: 1rem;">
-                        <p class="mb10">
-                            Делая небольшое отступление, для лучшего понимания давайте разберемся, что представляют
-                            собой шаблонные страницы. Это страницы, созданные по определённому шаблону (макету).
-                            Как пример возьмем сайт интернет-магазина женской одежды, где наверняка есть каталоги
-                            товаров. Представьте, что на картинке ниже отображаются товары из категории весенней
-                            одежды – по 4 товара в ряд.
-                        </p>
-                        <div class="ta-center" style="min-width: 45%;">
-                            <img src="image/shablonnaya-stranica.jpg" style="max-width: 100%;height: auto;" width="700"
-                                height="543" class="wslazy" data-srcset="image/shablonnaya-stranica.jpg 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Шаблонная страница">
-                        </div>
-                    </div>
-
-                    <div class="flex jc-space-between nowrap-desctop pt25 pb30">
-                        <div style="font-size: 1rem;">
+                </section>
+                <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
+                         itemtype="https://schema.org/Question">
+                    <div class="wsanchor" id="h2-without"></div>
+                    <input class="checkquest" type="checkbox" id="chck-without">
+                    <h3 class="wsquest"><label class="tab-label" for="chck-without" itemprop="name">Как сделать
+                        заказ?</label></h3>
+                    <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            <div style="float: right;">
+                                <img src="image/request.png" width="64" height="64" class="wslazy"
+                                     data-srcset="image/request.png 100w"
+                                     srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw"
+                                     decoding="async" loading="lazy" alt="Иконка показывающий заказ">
+                            </div>
                             <p class="mb10">
-                                Если мы перейдём в категорию зимней одежды, нам отобразится точно такой же шаблон
-                                страницы.
-                                Товары будут другие, но внешний макет страницы будет такой же, как и отображённый на
-                                картинке
-                                (4 товара в ряд). Это считается шаблонной страницей.
-                                Клик по товару откроет нам уже совсем другой шаблон страницы и её макет изменится.
-                                Там уже не будет отображаться 4 карточки в ряд.
-                                Шаблон будет состоять из картинки товара, его характеристик и т.д.
-
-                            </p>
-                        </div>
-                        <div style="min-width: 45%;">
-                            <img src="image/shablon-zimnej-odezhdy.png" style="max-width: 100%;height: auto;"
-                                width="700" height="329" class="wslazy"
-                                data-srcset="image/shablon-zimnej-odezhdy.png 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Шаблонная страница зимней одежды">
-                        </div>
-                    </div>
-                    <div style="font-size: 1rem;">
-                        <p class="mb10">
-                            Но какое бы изделие мы не открыли, у всех товаров будет одинаковый шаблон (слева картинка,
-                            справа цена, цвет, размеры, описание и т.д.) Это тоже считается шаблонной страницей.
-                            Если в семантической разметке макета где-то будет допущена ошибка, она затронет все
-                            категории или товары. А если в код шаблона товара, к примеру, внедрить кнопку, ею
-                            «обзаведутся» все товарные ячейки. Целесообразность аудита семантической разметки сайта
-                            становится очевидной. Исправление проблем одного шаблона влечёт за собой корректную
-                            генерацию всех товаров/категорий в правильной верстке.
-                        </p>
-                    </div>
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
-                </div>
-            </section>
-
-
-            <section class="bgWhite wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Составляющие анализа семантической разметки</h2>
-                    </div>
-                    <div style="font-size: 1rem;">
-                        <p>Некоторые блоки кода веб-страницы могут быть характерны только для мобильной версии
-                            веб-сайта, другие – только для десктопной. Поэтому проверке подлежат обе версии сайта.
-                            Пересмотр программного кода страниц я выполняю вручную. В рамках аудита отмечаю:
-                        </p>
-                        <ul class="greenp">
-                            <li>неправильное использование тегов разметки (&lt;header&gt;, &lt;article&gt;,
-                                &lt;section&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;aside&gt;);</li>
-                            <li>взаимосвязь и взаимодействие отдельных частей html-кода страницы между собой;</li>
-                            <li>информационную иерархию сайта: какой текст воспринимается поисковой системой основным, а
-                                какой – второстепенным;</li>
-                            <li>корректную разметку блоков, их расположение друг относительно друга и восприятие
-                                поисковиками;</li>
-                            <li>отличает ли поисковик рекламу от основного контента страницы;</li>
-                            <li>правильно ли распознаются навигационные элементы и т.д.</li>
-                        </ul>
-                        <p>По итогу аудита я формирую наглядный отчет аудита, где содержится подробное описание
-                            найденных ошибок и стоимость их исправления.</p>
-                    </div>
-
-
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
-                </div>
-            </section>
-
-
-            <section class="bgLightGray wssctn">
-                <div class="lg-centerwrap centerwrap clearfix">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Пример отчёта аудита</h2>
-                    </div>
-
-                    <div class="flex jc-space-between nowrap-desctop pt25 pb30">
-
-                        <div class="ta-center" style="min-width: 45%;">
-                            <img src="image/prilozheniya-trello.png" style="max-width: 100%;height: auto; " width="700"
-                                height="419" class="wslazy" data-srcset="image/prilozheniya-trello.png 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Главная страница Trello">
-                        </div>
-                        <div style="font-size: 1rem; padding: 2vw;">
-                            <p>
-                                Я формирую результаты аудита семантической верстки html5 в отчет в приложении Trello.
-                                Его очень легко и удобно использовать даже новичкам. Документ состоит из карточек с
-                                отдельным аудитом по шаблонным страницам сайта (главная, категория,
-                                товар/услуга/статья). Отдельно вынесены итоги аудита сквозных элементов страницы, а
-                                также разметки Schema.org.
-                            </p>
-                            <p class="mb10">
-                                Каждая карточка содержит описание проверяемого шаблона или элемента с заготовкой перечня
-                                пунктов для проверки. Карточки предусматривают возможность обратной связи со мной в
-                                случае необходимости обсуждения оптимизации того или иного пункта.
+                                Воспользовавшись формой ниже, вы сможете легко осуществить заказ аудита
+                                семантической
+                                разметки сайта. Для работы мне необходима только ссылка на сайт, который необходимо
+                                проверить. Укажите её, заполняя поля формы заказа. После оплаты ожидайте сообщение о
+                                начале аудита, а в указанные сроки вы получите отчет с результатами аудита
+                                семантической
+                                верстки html5.
                             </p>
                         </div>
                     </div>
+                </section>
+            </div>
+        </section>
 
-                    <div class="flex jc-space-between nowrap-desctop pt25 pb30 ta-center">
+        <div>End here!</div>
 
-                        <div style="min-width: 45%; padding: 1.2vw">
-                            <img src="image/zametka-v-trello.png" style="max-width: 100%;height: auto;" width="700"
-                                height="486" class="wslazy" data-srcset="image/zametka-v-trello.png 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Лист задании в Trello">
-                        </div>
-                        <div style="min-width: 45%; padding: 1.2vw">
-                            <img src="image/schityvaem-cenu-cherez-trello.png" style="max-width: 100%;height: auto;"
-                                width="700" height="485" class="wslazy"
-                                data-srcset="image/schityvaem-cenu-cherez-trello.png 100w"
-                                srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
-                                loading="lazy" alt="Лист считывание цену в Trello">
-                        </div>
-                    </div>
-                    <div style="font-size: 1rem;">
-                        <p class="mb10">
-                            После проверки формируется перечень проблем для исправления – для каждого сайта он будет
-                            индивидуальным. Также отдельно будут указаны проверенные мною пункты, где проблем обнаружено
-                            не было. По итогу аудита я просчитываю примерную стоимость исправления обнаруженных проблем.
-                            Цену и сроки выполнения работ указываю в отчёте в поле пользователя.
-                        </p>
-                    </div>
-                    <div class="pt20"></div>
-                    <div class="pt20"></div>
+        <!-- end here -->
+    </div>
+
+
+    <section id="zakaz-action" class="zakaz-action">
+        <div class="centerwrap clearfix">
+            <div class="ta-center pt25 pb30">
+
+                <h2 class="fs30 fontf-pnb mt10">Форма заказа</h2>
+                <div class="fs18 ta-center mt10 mb20">
+                    Для аудита хватает только домена.
                 </div>
-            </section>
-
-            <section class="faq wssctn">
-                <div class="wsanchor" id="faq"> </div>
-                <div class="lg-centerwrap centerwrap clearfix mb20">
-                    <div class="pt25 pb30">
-                        <h2 class="h2sect">Часто задаваемые вопросы</h2>
-                    </div>
-                    <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
-                        itemtype="https://schema.org/Question">
-                        <div class="wsanchor" id="h2-use"> </div>
-                        <input class="checkquest" type="checkbox" id="chck-use">
-                        <h3 class="wsquest"><label class="tab-label" for="chck-use" itemprop="name">Что делать с
-                                результатами аудита дальше?</label></h3>
-                        <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                            <div itemprop="text">
-                                <p>Отчёт позволит понять весь фронт работ и запланировать средства. Очень часто это
-                                    является основной причиной заказа. Цены указываю по каждой ошибке. У некоторых её
-                                    точно рассчитать невозможно, так как влияют дополнительные параметры. В таких
-                                    случаях я ставлю стоимость «от» и «до». Моя цена может отличаться от других
-                                    специалистов, но этих данных вам вполне хватит, чтобы рассчитать бюджет на все
-                                    работы или только на важные исправления.</p>
-                                <div style="float: right;">
-                                    <img src="image/conversation.png" width="64" height="64" class="wslazy"
-                                        data-srcset="image/conversation.png 100w"
-                                        srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw"
-                                        decoding="async" loading="lazy" alt="Иконка показывающий вопрос-ответ">
-                                </div>
-                                <p>В отчете все ошибки описаны подробно, даны понятные рекомендации по их исправлению.
-                                    Получив
-                                    результаты аудита семантической верстки html5, вы можете:
-                                </p>
-                                <ul class="greenp">
-                                    <li>исправить всё самостоятельно;</li>
-                                    <li>спрашивать любые уточнения прямо в карточках Trello-отчета;</li>
-                                    <li>отправить данные своим разработчикам или дать им доступ к этому аудиту;</li>
-                                    <li>заказать работу у меня по указанным в аудите ценам.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
-                        itemtype="https://schema.org/Question">
-                        <div class="wsanchor" id="h2-need"> </div>
-                        <input class="checkquest" type="checkbox" id="chck-need">
-                        <h3 class="wsquest"><label class="tab-label" for="chck-need" itemprop="name">Что будет, если не
-                                заказывать аудит?</label></h3>
-                        <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                            <div itemprop="text">
-                                <p class="mb10">
-                                    «Если ты не идёшь вперёд, ты идёшь назад» – цитата классика как нельзя лучше
-                                    отражает
-                                    сегодняшний мир веб-разработок. Меняется всё: алгоритмы, инструменты, теги и
-                                    варианты их
-                                    использования. Бездействие в такой динамично меняющейся среде не приведет ни к чему
-                                    хорошему. Ошибки так и останутся, да и сайт сам собой не поднимется в более высокие
-                                    поисковые позиции.
-                                    Аудит семантической верстки html5 необходим для продвижения сайта в ТОПовые позиции
-                                    поисковой выдачи, что увеличит трафик пользователей на ваш ресурс.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="wssctn faqsctn" itemscope itemprop="mainEntity"
-                        itemtype="https://schema.org/Question">
-                        <div class="wsanchor" id="h2-without"> </div>
-                        <input class="checkquest" type="checkbox" id="chck-without">
-                        <h3 class="wsquest"><label class="tab-label" for="chck-without" itemprop="name">Как сделать
-                                заказ?</label></h3>
-                        <div class="wsanswer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                            <div itemprop="text">
-                                <div style="float: right;">
-                                    <img src="image/request.png" width="64" height="64" class="wslazy"
-                                        data-srcset="image/request.png 100w"
-                                        srcset="https://wseo.kz/images/empty-300x200.svg 100w" sizes="100vw"
-                                        decoding="async" loading="lazy" alt="Иконка показывающий заказ">
-                                </div>
-                                <p class="mb10">
-                                    Воспользовавшись формой ниже, вы сможете легко осуществить заказ аудита
-                                    семантической
-                                    разметки сайта. Для работы мне необходима только ссылка на сайт, который необходимо
-                                    проверить. Укажите её, заполняя поля формы заказа. После оплаты ожидайте сообщение о
-                                    начале аудита, а в указанные сроки вы получите отчет с результатами аудита
-                                    семантической
-                                    верстки html5.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </section>
-
-            <!-- end here -->
-        </div>
-
-
-        <section id="zakaz-action" class="zakaz-action">
-            <div class="centerwrap clearfix">
-                <div class="ta-center pt25 pb30">
-
-                    <h2 class="fs30 fontf-pnb mt10">Форма заказа</h2>
-                    <div class="fs18 ta-center mt10 mb20">
-                        Для аудита хватает только домена.
-                    </div>
-                    <form onsubmit="return false;" id="zakaz-form-block" class="find-service" style="text-align: left;">
-                        <input type="hidden" name="_token" value="pPRoiSuyWvwry6a1XgsDoYCker8bcqA5r6qJUtyp">
-                        <input name="service_id" type="hidden" value="">
-                        <input name="additionally_ids" type="hidden" value="">
-                        <div class="general-search" id="zakaz-domen-block" style="overflow: hidden;">
-                            <input name="domen" id="zakaz-domen" style="line-height: 48px;height: 48px;" type="text"
-                                value="" placeholder="Введите домен" class="form-control">
-                            <span id="zakaz-audit-button" class="audit-button">
+                <form onsubmit="return false;" id="zakaz-form-block" class="find-service" style="text-align: left;">
+                    <input type="hidden" name="_token" value="pPRoiSuyWvwry6a1XgsDoYCker8bcqA5r6qJUtyp">
+                    <input name="service_id" type="hidden" value="">
+                    <input name="additionally_ids" type="hidden" value="">
+                    <div class="general-search" id="zakaz-domen-block" style="overflow: hidden;">
+                        <input name="domen" id="zakaz-domen" style="line-height: 48px;height: 48px;" type="text"
+                               value="" placeholder="Введите домен" class="form-control">
+                        <span id="zakaz-audit-button" class="audit-button">
                                 <button class="button button-success" onclick="zakazOrderShow();
                                         yaCounter51886235.reachGoal('go-to-order');
                                         return false;"> Заказать </button>
                             </span>
-                        </div>
-                        <label id="zakaz-domen-label" for="zakaz-domen" class="mt5 example-search-link"><span
-                                class="c-orange fw700"> * </span> Укажите домен или ссылку</label>
-                        <div style="color: #555;">Цена: <span itemprop="price">4490</span> <span
-                                itemprop="priceCurrency" content="RUB">руб.</span>
-                            <br>Срок: до 2 дня (обычно 19 часов)
-                        </div>
-                        <div class="clear"></div>
-                    </form>
+                    </div>
+                    <label id="zakaz-domen-label" for="zakaz-domen" class="mt5 example-search-link"><span
+                            class="c-orange fw700"> * </span> Укажите домен или ссылку</label>
+                    <div style="color: #555;">Цена: <span itemprop="price">4490</span> <span
+                            itemprop="priceCurrency" content="RUB">руб.</span>
+                        <br>Срок: до 2 дня (обычно 19 часов)
+                    </div>
+                    <div class="clear"></div>
+                </form>
 
 
-                    <div id="zakaz-action-block" class="ta-left
+                <div id="zakaz-action-block" class="ta-left
                             zakaz-action-block">
-                        <div class="zakaz-action-in">
+                    <div class="zakaz-action-in">
 
-                            <svg id="zakaz-close" onclick="zakazformShow();
+                        <svg id="zakaz-close" onclick="zakazformShow();
                                     return false;" class="zakaz-close" fill="#ccc" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 352
+                             xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 352
                                     448">
-                                <path d="M324.5 330.5c0 6.25-2.5 12.5-7
+                            <path d="M324.5 330.5c0 6.25-2.5 12.5-7
                                         17l-34 34c-4.5 4.5-10.75 7-17
                                         7s-12.5-2.5-17-7l-73.5-73.5-73.5
                                         73.5c-4.5 4.5-10.75 7-17
@@ -2379,45 +2377,46 @@
                                         17-7s12.5 2.5 17 7l34 34c4.5 4.5 7 10.75
                                         7 17s-2.5 12.5-7 17l-73.5 73.5 73.5
                                         73.5c4.5 4.5 7 10.75 7 17z"></path>
-                            </svg>
+                        </svg>
 
-                            <h3 class="zakaz-action-h">Заказать очень легко</h3>
-                            <div class="zakaz-action-hh">
-                                Выберите удобный способ связи, вставьте и
-                                отправьте сообщение.
-                            </div>
-                            <div id="zakazmssg" style="display: none">Добрый
-                                день!&nbsp;
-                                Сайт: saitename.com&nbsp;
-                                Хочу заказать:&nbsp;
-                                «Аудит технической SEO оптимизации» от 1000
-                                до 10000 страниц — 7500 р.;&nbsp;
-                                «Аудит скорости загрузки сайта» — 2500
-                                р.;&nbsp;
-                                «Исправление ошибок валидации» 210 ошибок —
-                                1340 р.;&nbsp;
-                                ИТОГ: 11340 р.</div>
-                            <div class="zakaz-mssg-box">
-                                <div id="zakazmssgbox">
-                                    Добрый день!<br>
-                                    Сайт: <span class="c-green">saitename.com</span><br>
-                                    <span class="fw600">Хочу заказать:</span><br>
-                                    «Аудит технической SEO оптимизации
-                                    сайта» от 1000 до 10000 страниц — <span class="c-green ws-nowrap">7500
+                        <h3 class="zakaz-action-h">Заказать очень легко</h3>
+                        <div class="zakaz-action-hh">
+                            Выберите удобный способ связи, вставьте и
+                            отправьте сообщение.
+                        </div>
+                        <div id="zakazmssg" style="display: none">Добрый
+                            день!&nbsp;
+                            Сайт: saitename.com&nbsp;
+                            Хочу заказать:&nbsp;
+                            «Аудит технической SEO оптимизации» от 1000
+                            до 10000 страниц — 7500 р.;&nbsp;
+                            «Аудит скорости загрузки сайта» — 2500
+                            р.;&nbsp;
+                            «Исправление ошибок валидации» 210 ошибок —
+                            1340 р.;&nbsp;
+                            ИТОГ: 11340 р.
+                        </div>
+                        <div class="zakaz-mssg-box">
+                            <div id="zakazmssgbox">
+                                Добрый день!<br>
+                                Сайт: <span class="c-green">saitename.com</span><br>
+                                <span class="fw600">Хочу заказать:</span><br>
+                                «Аудит технической SEO оптимизации
+                                сайта» от 1000 до 10000 страниц — <span class="c-green ws-nowrap">7500
                                         р.</span>;<br>
-                                    «Аудит скорости загрузки сайта» — <span class="c-green ws-nowrap">2500
+                                «Аудит скорости загрузки сайта» — <span class="c-green ws-nowrap">2500
                                         р.</span>;<br>
-                                    «Исправление ошибок валидации» 210
-                                    ошибок — <span class="c-green
+                                «Исправление ошибок валидации» 210
+                                ошибок — <span class="c-green
                                             ws-nowrap">1340 р.</span>;<br>
-                                    <span class="fw600">ИТОГ: <span class="c-green ws-nowrap">11340
+                                <span class="fw600">ИТОГ: <span class="c-green ws-nowrap">11340
                                             р.</span></span>
 
-                                </div>
-                                <svg class="copybtn" onclick="wsCopyValMach('zakazmssg');" version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448
+                            </div>
+                            <svg class="copybtn" onclick="wsCopyValMach('zakazmssg');" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 448
                                         448">
-                                    <path d="M424 96c13.25 0 24 10.75 24
+                                <path d="M424 96c13.25 0 24 10.75 24
                                             24v304c0 13.25-10.75 24-24
                                             24h-240c-13.25
                                             0-24-10.75-24-24v-72h-136c-13.25
@@ -2433,443 +2432,447 @@
                                             7.75-31.75 17-41zM416
                                             416v-288h-96v104c0 13.25-10.75 24-24
                                             24h-104v160h224z"></path>
-                                </svg>
-                                <span class="copytooltip">Копировать</span>
-                            </div>
-                            <div class="zakaz-mssg-descr">
-                                <span class="c-green fw700"> * </span>Сообщение
-                                будет скопировано автоматически
-                            </div>
-                            <div>
-                                <div class="zakazbuton-group flex
+                            </svg>
+                            <span class="copytooltip">Копировать</span>
+                        </div>
+                        <div class="zakaz-mssg-descr">
+                            <span class="c-green fw700"> * </span>Сообщение
+                            будет скопировано автоматически
+                        </div>
+                        <div>
+                            <div class="zakazbuton-group flex
                                         jc-space-between">
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="https://wa.me/77051888090"
-                                        target="_blank" rel="nofollow
+                                <a onclick="wsCopyValMach('zakazmssg');" href="https://wa.me/77051888090"
+                                   target="_blank" rel="nofollow
                                             noopener" title="WhatsApp">
-                                        <span class="iwsvg page-wa"></span>
-                                        <span class="s-mess">
+                                    <span class="iwsvg page-wa"></span>
+                                    <span class="s-mess">
                                             WhatsApp<br>
                                             <span class="s-login">+7(705)188-8090</span>
                                         </span>
-                                    </a>
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="https://t.me/webseokz"
-                                        target="_blank" rel="nofollow
+                                </a>
+                                <a onclick="wsCopyValMach('zakazmssg');" href="https://t.me/webseokz"
+                                   target="_blank" rel="nofollow
                                             noopener" title="Telegram">
-                                        <span class="iwsvg page-tg"></span>
-                                        <span class="s-mess">
+                                    <span class="iwsvg page-tg"></span>
+                                    <span class="s-mess">
                                             Telegram<br>
                                             <span class="s-login">@webseokz</span>
                                         </span>
-                                    </a>
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="https://vk.me/michael_kz"
-                                        target="_blank" rel="nofollow
+                                </a>
+                                <a onclick="wsCopyValMach('zakazmssg');" href="https://vk.me/michael_kz"
+                                   target="_blank" rel="nofollow
                                             noopener" title="ВКонтакте">
-                                        <span class="iwsvg page-vk"></span>
-                                        <span class="s-mess">
+                                    <span class="iwsvg page-vk"></span>
+                                    <span class="s-mess">
                                             ВКонтакте<br>
                                             <span class="s-login">@michael_kz</span>
                                         </span>
-                                    </a>
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="https://www.instagram.com/webseo.kz/"
-                                        target="_blank" rel="nofollow
+                                </a>
+                                <a onclick="wsCopyValMach('zakazmssg');" href="https://www.instagram.com/webseo.kz/"
+                                   target="_blank" rel="nofollow
                                             noopener" title="Instagram">
-                                        <span class="iwsvg page-insta"></span>
-                                        <span class="s-mess">
+                                    <span class="iwsvg page-insta"></span>
+                                    <span class="s-mess">
                                             Instagram<br>
                                             <span class="s-login">@webseo.kz</span>
                                         </span>
-                                    </a>
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="https://m.me/aktaumag.kz"
-                                        target="_blank" rel="nofollow
+                                </a>
+                                <a onclick="wsCopyValMach('zakazmssg');" href="https://m.me/aktaumag.kz"
+                                   target="_blank" rel="nofollow
                                             noopener" title="Messenger">
-                                        <span class="iwsvg page-fbmg"></span>
-                                        <span class="s-mess">
+                                    <span class="iwsvg page-fbmg"></span>
+                                    <span class="s-mess">
                                             Messenger<br>
                                             <span class="s-login">@aktaumag.kz</span>
                                         </span>
-                                    </a>
-                                    <a onclick="wsCopyValMach('zakazmssg');" href="mailto:info@wseo.kz" rel="nofollow">
-                                        <span class="iwsvg page-mail"></span>
-                                        <span class="s-mess">
+                                </a>
+                                <a onclick="wsCopyValMach('zakazmssg');" href="mailto:info@wseo.kz" rel="nofollow">
+                                    <span class="iwsvg page-mail"></span>
+                                    <span class="s-mess">
                                             Email<br>
                                             <span class="s-login">info@wseo.kz</span>
                                         </span>
-                                    </a>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+
+
             </div>
-        </section>
-        <script>
-            // Грубый обобщенный пример
-            // Получаем доступ к элементу, который будет анимирован при клике по нему, например
-            let formblock = document.getElementById('zakaz-form-block');
-            let close = document.getElementById('zakaz-close');
+        </div>
+    </section>
+    <script>
+        // Грубый обобщенный пример
+        // Получаем доступ к элементу, который будет анимирован при клике по нему, например
+        let formblock = document.getElementById('zakaz-form-block');
+        let close = document.getElementById('zakaz-close');
+        let actionblock = document.getElementById('zakaz-action-block');
+
+        function hintBrowser() {
+            // Свойства, для которых будут выполнены изменения в блоке
+            // описания анимации, к которым можно подготовиться
             let actionblock = document.getElementById('zakaz-action-block');
+            actionblock.style.willChange = 'transform, opacity';
+            let formblock = document.getElementById('zakaz-form-block');
+            formblock.style.willChange = 'transform, opacity';
+            console.log('willChange');
+            return true;
+        }
 
-            function hintBrowser() {
-                // Свойства, для которых будут выполнены изменения в блоке
-                // описания анимации, к которым можно подготовиться
+        function removeHint(wstimer) {
+            setTimeout(function () {
                 let actionblock = document.getElementById('zakaz-action-block');
-                actionblock.style.willChange = 'transform, opacity';
+                actionblock.style.willChange = 'auto';
                 let formblock = document.getElementById('zakaz-form-block');
-                formblock.style.willChange = 'transform, opacity';
-                console.log('willChange');
+                formblock.style.willChange = 'auto';
+                console.log('Not-willChange');
                 return true;
-            }
+            }, 2000);
+        }
 
-            function removeHint(wstimer) {
+        // Устанавливаем will-change при наведении на элемент
+        formblock.addEventListener('mouseenter', hintBrowser);
+        formblock.addEventListener('mouseleave', removeHint);
+        actionblock.addEventListener('animationEnd', removeHint);
+        close.addEventListener('mouseenter', hintBrowser);
+        actionblock.addEventListener('animationEnd', removeHint);
+
+        function zakazOrderShow() {
+            let domeninput = document.getElementById('zakaz-domen');
+            let zakazformblock = document.getElementById('zakaz-form-block');
+            if (domeninput.value === '') {
+                zakazformblock.classList.add('iserror');
+                // border: 1px solid #ddd;
+                // border: 1px solid #f00;
+
+                // color: #333;
+                // color: #f00;
+            } else {
+                zakazformblock.classList.remove('iserror');
+
+                // Переносим указанный домен
+                let domeninputtop = document.getElementById('domen2');
+                domeninputtop.value = domeninput.value;
+
+                let action = document.getElementById('zakaz-action');
+                let zakazmssgbox = document.getElementById('zakazmssgbox'); // #zakazmssgbox // Блок с текстом для отображения
+                let zakazmssg = document.getElementById('zakazmssg'); // #zakazmssg // Скрытый блок с текстом для копирования
+                zakazmssgbox.innerHTML = 'Добрый день!' + '<br>' +
+                    'Cайт: ' + domeninput.value + '<br>' +
+                    'Хочу заказать «Аудит семантической вёрстки»' +
+                    ' — <span class="c-green ws-nowrap">4490 р.</span>' + '<br>' +
+                    'Когда сможете приступить?' +
+                    '';
+                zakazmssg.innerHTML = 'Добрый день!' + "\n" +
+                    'Cайт: ' + domeninput.value + "\n" +
+                    'Хочу заказать «Аудит семантической вёрстки»' +
+                    ' — 4490 р.' + "\n" +
+                    'Когда сможете приступить?' +
+                    '';
+
+                action.classList.add('isactiv');
+
+                // Скролим до нужной позиции
+                //const topOffset = document.querySelector('.scrollto').offsetHeight;
+                //const topOffset = 0; // если не нужен отступ сверху
+                const elementPosition = action.getBoundingClientRect().top;
+                //const offsetPosition = elementPosition - topOffset;
+                const offsetPosition = elementPosition - 20;
+                window.scrollBy({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+            return true;
+        }
+
+        function zakazformShow() {
+            let action = document.getElementById('zakaz-action');
+            action.classList.remove('isactiv');
+            return true;
+        }
+
+    </script>
+    <textarea id="forcopymach" style="display: none"></textarea>
+    <script>
+        function wsCopyValMach(wsel) {
+            let wsCopyTextMach = document.querySelector('#' + wsel).textContent;
+            let forcopymach = document.querySelector('#forcopymach');
+            let copytooltip = document.querySelector('.copytooltip');
+            forcopymach.style.display = 'inline-block';
+            forcopymach.innerHTML = wsCopyTextMach;
+            forcopymach.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {
+                console.log('Can`t copy, boss: ' + wsCopyTextMach);
+            } finally {
+                forcopymach.style.display = 'none';
+                copytooltip.innerHTML = 'Скопировано!';
+                copytooltip.style.display = 'inline';
                 setTimeout(function () {
-                    let actionblock = document.getElementById('zakaz-action-block');
-                    actionblock.style.willChange = 'auto';
-                    let formblock = document.getElementById('zakaz-form-block');
-                    formblock.style.willChange = 'auto';
-                    console.log('Not-willChange');
-                    return true;
+                    copytooltip.style.display = 'none';
+                    copytooltip.innerHTML = 'Копировать';
                 }, 2000);
             }
 
-            // Устанавливаем will-change при наведении на элемент
-            formblock.addEventListener('mouseenter', hintBrowser);
-            formblock.addEventListener('mouseleave', removeHint);
-            actionblock.addEventListener('animationEnd', removeHint);
-            close.addEventListener('mouseenter', hintBrowser);
-            actionblock.addEventListener('animationEnd', removeHint);
-
-            function zakazOrderShow() {
-                let domeninput = document.getElementById('zakaz-domen');
-                let zakazformblock = document.getElementById('zakaz-form-block');
-                if (domeninput.value === '') {
-                    zakazformblock.classList.add('iserror');
-                    // border: 1px solid #ddd;
-                    // border: 1px solid #f00;
-
-                    // color: #333;
-                    // color: #f00;
-                }
-                else {
-                    zakazformblock.classList.remove('iserror');
-
-                    // Переносим указанный домен
-                    let domeninputtop = document.getElementById('domen2');
-                    domeninputtop.value = domeninput.value;
-
-                    let action = document.getElementById('zakaz-action');
-                    let zakazmssgbox = document.getElementById('zakazmssgbox'); // #zakazmssgbox // Блок с текстом для отображения
-                    let zakazmssg = document.getElementById('zakazmssg'); // #zakazmssg // Скрытый блок с текстом для копирования
-                    zakazmssgbox.innerHTML = 'Добрый день!' + '<br>' +
-                        'Cайт: ' + domeninput.value + '<br>' +
-                        'Хочу заказать «Аудит семантической вёрстки»' +
-                        ' — <span class="c-green ws-nowrap">4490 р.</span>' + '<br>' +
-                        'Когда сможете приступить?' +
-                        '';
-                    zakazmssg.innerHTML = 'Добрый день!' + "\n" +
-                        'Cайт: ' + domeninput.value + "\n" +
-                        'Хочу заказать «Аудит семантической вёрстки»' +
-                        ' — 4490 р.' + "\n" +
-                        'Когда сможете приступить?' +
-                        '';
-
-                    action.classList.add('isactiv');
-
-                    // Скролим до нужной позиции
-                    //const topOffset = document.querySelector('.scrollto').offsetHeight;
-                    //const topOffset = 0; // если не нужен отступ сверху
-                    const elementPosition = action.getBoundingClientRect().top;
-                    //const offsetPosition = elementPosition - topOffset;
-                    const offsetPosition = elementPosition - 20;
-                    window.scrollBy({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-                return true;
-            }
-            function zakazformShow() {
-                let action = document.getElementById('zakaz-action');
-                action.classList.remove('isactiv');
-                return true;
-            }
-
-        </script>
-        <textarea id="forcopymach" style="display: none"></textarea>
-        <script>
-            function wsCopyValMach(wsel) {
-                let wsCopyTextMach = document.querySelector('#' + wsel).textContent;
-                let forcopymach = document.querySelector('#forcopymach');
-                let copytooltip = document.querySelector('.copytooltip');
-                forcopymach.style.display = 'inline-block';
-                forcopymach.innerHTML = wsCopyTextMach;
-                forcopymach.select();
-                try {
-                    document.execCommand('copy');
-                } catch (err) {
-                    console.log('Can`t copy, boss: ' + wsCopyTextMach);
-                } finally {
-                    forcopymach.style.display = 'none';
-                    copytooltip.innerHTML = 'Скопировано!';
-                    copytooltip.style.display = 'inline';
-                    setTimeout(function () {
-                        copytooltip.style.display = 'none';
-                        copytooltip.innerHTML = 'Копировать';
-                    }, 2000);
-                }
-
-            }
-        </script>
-    </div>
+        }
+    </script>
+</div>
 
 
-    <div class="header is_index ws-firsttop">
-        <div class="header_top">
-            <div class="centerwrap lg-centerwrap relative">
-                <div class="headertop">
+<div class="header is_index ws-firsttop">
+    <div class="header_top">
+        <div class="centerwrap lg-centerwrap relative">
+            <div class="headertop">
 
-                    <header class="brand-image" itemscope itemtype="http://schema.org/Organization">
-                        <link itemprop="url" href="https://wseo.kz/">
-                        <a href="https://wseo.kz/" title="На главную">
-                            <img src="https://wseo.kz/images/main/wseo-logo.jpg" srcset="https://wseo.kz/images/main/icons.svg#logo
+                <header class="brand-image" itemscope itemtype="http://schema.org/Organization">
+                    <link itemprop="url" href="https://wseo.kz/">
+                    <a href="https://wseo.kz/" title="На главную">
+                        <img src="https://wseo.kz/images/main/wseo-logo.jpg" srcset="https://wseo.kz/images/main/icons.svg#logo
                                     100w" sizes="100vw" class="ico-wseo" alt="Логотип WebSEO.kz" itemprop="logo">
-                            <div class="logo_subtext" itemprop="name">
-                                wSEO
-                            </div>
-                        </a>
-                    </header>
+                        <div class="logo_subtext" itemprop="name">
+                            wSEO
+                        </div>
+                    </a>
+                </header>
 
-                    <div class="mainmenu">
-                        <input class="menu-btn" type="checkbox" id="menu-btn" />
-                        <div class="blfon"></div>
-                        <div class="menublock">
-                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                            <nav class="mbnav">
-                                <h6 class="hideh">Основное меню</h6>
-                                <ul itemscope itemtype="https://schema.org/SiteNavigationElement">
-                                    <li itemprop="name"><a itemprop="url" href="https://wseo.kz/new-audit">Аудиты</a>
-                                    </li>
-                                    <li itemprop="name"><a itemprop="url" href="https://wseo.kz/portfolio">Портфолио</a>
-                                    </li>
-                                    <li itemprop="name"><a itemprop="url" href="https://wseo.kz/info#reviews">Отзывы</a>
-                                    </li>
-                                    <li itemprop="name"><a itemprop="url" href="https://wseo.kz/info">Контакты</a></li>
-                                    <li class="soccc">
-                                        <ul>
-                                            <li class="hphone"><a href="tel:+77051888090"
-                                                    rel="nofollow">+7(705)188-8090</a></li>
-                                            <li><a href="https://wa.me/77051888090" target="_blank"
-                                                    rel="nofollow noopener" title="WhatsApp">
+                <div class="mainmenu">
+                    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                    <div class="blfon"></div>
+                    <div class="menublock">
+                        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                        <nav class="mbnav">
+                            <h6 class="hideh">Основное меню</h6>
+                            <ul itemscope itemtype="https://schema.org/SiteNavigationElement">
+                                <li itemprop="name"><a itemprop="url" href="https://wseo.kz/new-audit">Аудиты</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://wseo.kz/portfolio">Портфолио</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://wseo.kz/info#reviews">Отзывы</a>
+                                </li>
+                                <li itemprop="name"><a itemprop="url" href="https://wseo.kz/info">Контакты</a></li>
+                                <li class="soccc">
+                                    <ul>
+                                        <li class="hphone"><a href="tel:+77051888090"
+                                                              rel="nofollow">+7(705)188-8090</a></li>
+                                        <li><a href="https://wa.me/77051888090" target="_blank"
+                                               rel="nofollow noopener" title="WhatsApp">
                                                     <span class="iwsvg
                                                             mbnav-wa"></span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://t.me/webseokz" target="_blank" rel="nofollow noopener"
-                                                    title="Telegram">
+                                        </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://t.me/webseokz" target="_blank" rel="nofollow noopener"
+                                               title="Telegram">
                                                     <span class="iwsvg
                                                             mbnav-tg"></span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://m.me/aktaumag.kz" target="_blank"
-                                                    rel="nofollow noopener" title="Messenger">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://m.me/aktaumag.kz" target="_blank"
+                                               rel="nofollow noopener" title="Messenger">
                                                     <span class="iwsvg
                                                             mbnav-fbmg"></span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.instagram.com/webseo.kz/" target="_blank"
-                                                    rel="nofollow noopener" title="Instagram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/webseo.kz/" target="_blank"
+                                               rel="nofollow noopener" title="Instagram">
                                                     <span class="iwsvg
                                                             btn-insta"></span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://vk.me/michael_kz" target="_blank"
-                                                    rel="nofollow noopener" title="ВКонтакте">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://vk.me/michael_kz" target="_blank"
+                                               rel="nofollow noopener" title="ВКонтакте">
                                                     <span class="iwsvg
                                                             btn-vk"></span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="mailto:info@wseo.kz" rel="nofollow" title="E-mail">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:info@wseo.kz" rel="nofollow" title="E-mail">
                                                     <span class="iwsvg
                                                             mbnav-mail"></span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
 
-                                </ul>
-                            </nav>
-                        </div>
+                            </ul>
+                        </nav>
                     </div>
-
-
                 </div>
+
+
             </div>
         </div>
-
-
     </div>
 
 
-    <!--[if IE]>
-        <aside id="event_list" class="ws-secondtop">
-            <h6>Уведомление</h6>
-            <div class="event-message" id="event_">
+</div>
+
+
+<!--[if IE]>
+<aside id="event_list" class="ws-secondtop">
+    <h6>Уведомление</h6>
+    <div class="event-message" id="event_">
         <div class="event-message__container foxwidth842">
             <i class="icon ico-warning event-message__container_icon"></i>
             <p>Внимание! В браузерах Internet Explorer сайт может отображаться и работать некорректно.<br>Пожалуйста,
                 воспользуйтесь другим браузером.</p>
         </div>
     </div>
- 
-        </aside>
-        <![endif]-->
-    <div class="clear"></div>
-    <div class="footer is_index">
-        <div class="lg-centerwrap centerwrap footertop">
-            <div class="bottomLinks">
-                <nav class="linksBlock">
-                    <h6 class="linksBlockTitle">О нас</h6>
-                    <a href="https://wseo.kz/info">Информация</a>
-                    <a href="https://wseo.kz/info#reviews">Отзывы</a>
-                    <a href="https://wseo.kz/portfolio">Портфолио</a>
-                    <a href="https://wseo.kz/how-to-order">Как заказать</a>
-                </nav>
-                <nav class="linksBlock soglashenie">
-                    <h6 class="linksBlockTitle">Соглашения</h6>
-                    <a href="https://webseo.kz/politika-konfidencialnosti" target="_blank"
-                        rel="nofollow noopener">Политика
-                        конфиденциальности</a>
-                    <a href="https://webseo.kz/soglasie-s-rassylkoj" target="_blank" rel="nofollow noopener">Согласие с
-                        рассылкой</a>
-                    <a href="https://webseo.kz/polzovatelskoe-soglashenie" target="_blank"
-                        rel="nofollow noopener">Пользовательское
-                        соглашение</a>
-                    <div style="display: inline-block;"><a href="https://wseo.kz/login" style="display:
+
+</aside>
+<![endif]-->
+<div class="clear"></div>
+<div class="footer is_index">
+    <div class="lg-centerwrap centerwrap footertop">
+        <div class="bottomLinks">
+            <nav class="linksBlock">
+                <h6 class="linksBlockTitle">О нас</h6>
+                <a href="https://wseo.kz/info">Информация</a>
+                <a href="https://wseo.kz/info#reviews">Отзывы</a>
+                <a href="https://wseo.kz/portfolio">Портфолио</a>
+                <a href="https://wseo.kz/how-to-order">Как заказать</a>
+            </nav>
+            <nav class="linksBlock soglashenie">
+                <h6 class="linksBlockTitle">Соглашения</h6>
+                <a href="https://webseo.kz/politika-konfidencialnosti" target="_blank"
+                   rel="nofollow noopener">Политика
+                    конфиденциальности</a>
+                <a href="https://webseo.kz/soglasie-s-rassylkoj" target="_blank" rel="nofollow noopener">Согласие с
+                    рассылкой</a>
+                <a href="https://webseo.kz/polzovatelskoe-soglashenie" target="_blank"
+                   rel="nofollow noopener">Пользовательское
+                    соглашение</a>
+                <div style="display: inline-block;"><a href="https://wseo.kz/login" style="display:
                                 inline;padding-right: 0;">Вход</a> / <a href="https://wseo.kz/register" style="display:
                                 inline;padding-left: 0;">Регистрация</a></div>
-                </nav>
-                <footer class="linksBlock">
-                    <a href="https://webseo.kz" class="dib webseo-logo" target="_blank" rel="nofollow noopener" title="Сайт
+            </nav>
+            <footer class="linksBlock">
+                <a href="https://webseo.kz" class="dib webseo-logo" target="_blank" rel="nofollow noopener" title="Сайт
                             веб-студии">
-                        <svg class="logo-footer" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 153 33"
-                            style="enable-background:new 0 0 153 33;" xml:space="preserve">
+                    <svg class="logo-footer" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 153 33"
+                         style="enable-background:new 0 0 153 33;" xml:space="preserve">
                             <g id="logo">
-                                <circle id="lupa2" class="st1" cx="16.5" cy="16.5" r="6.4" />
+                                <circle id="lupa2" class="st1" cx="16.5" cy="16.5" r="6.4"/>
 
                                 <rect id="lupa1" x="2.2" y="21.9" transform="matrix(0.7071 -0.7071
-                                            0.7071 0.7071 -14.9912 12.8158)" class="st2" width="11.6" height="5.2" />
+                                            0.7071 0.7071 -14.9912 12.8158)" class="st2" width="11.6" height="5.2"/>
                                 <path id="ugol" class="st3" d="M28.3,17.3v10.9H17.3L12.6,33H33V12.6L28.3,17.3z
-                                                M20.4,0H0v20.4l4.7-4.7V4.7h10.9L20.4,0z" />
+                                                M20.4,0H0v20.4l4.7-4.7V4.7h10.9L20.4,0z"/>
                             </g>
-                            <g id="text">
+                        <g id="text">
                                 <g>
                                     <path class="st4" d="M61,28h-5.5l-3.1-12c-0.1-0.4-0.3-1.3-0.6-2.6c-0.3-1.3-0.4-2.2-0.5-2.7c-0.1,0.6-0.2,1.5-0.5,2.7
                                                         c-0.2,1.2-0.4,2.1-0.6,2.7l-3.1,12h-5.5L35.9,5.2h4.8l2.9,12.5c0.5,2.3,0.9,4.3,1.1,6c0.1-0.6,0.2-1.5,0.4-2.8
                                                         c0.2-1.2,0.4-2.2,0.6-2.9l3.3-12.8h4.6L57,18c0.1,0.6,0.3,1.4,0.5,2.6c0.2,1.2,0.4,2.2,0.5,3c0.1-0.8,0.3-1.8,0.5-3
-                                                        c0.2-1.2,0.4-2.2,0.6-2.9L62,5.2h4.8L61,28z" />
+                                                        c0.2-1.2,0.4-2.2,0.6-2.9L62,5.2h4.8L61,28z"/>
                                     <path class="st4"
-                                        d="M74.8,28.3c-2.8,0-5-0.8-6.6-2.3c-1.6-1.5-2.4-3.7-2.4-6.6c0-2.9,0.7-5.2,2.2-6.8s3.5-2.4,6.1-2.4
+                                          d="M74.8,28.3c-2.8,0-5-0.8-6.6-2.3c-1.6-1.5-2.4-3.7-2.4-6.6c0-2.9,0.7-5.2,2.2-6.8s3.5-2.4,6.1-2.4
                                                             c2.5,0,4.4,0.7,5.8,2.1c1.4,1.4,2.1,3.3,2.1,5.8v2.3H70.6c0.1,1.4,0.5,2.4,1.2,3.2c0.7,0.8,1.8,1.1,3.2,1.1c1.1,0,2-0.1,3-0.3
                                                             c0.9-0.2,1.9-0.6,2.9-1v3.7c-0.8,0.4-1.7,0.7-2.7,0.9C77.3,28.2,76.1,28.3,74.8,28.3z
                                                             M74.1,13.6c-1,0-1.8,0.3-2.4,1
-                                                            c-0.6,0.6-0.9,1.5-1,2.7h6.7c0-1.2-0.3-2.1-0.9-2.7C75.9,13.9,75.1,13.6,74.1,13.6z" />
+                                                            c-0.6,0.6-0.9,1.5-1,2.7h6.7c0-1.2-0.3-2.1-0.9-2.7C75.9,13.9,75.1,13.6,74.1,13.6z"/>
                                     <path class="st4" d="M93.1,10.2c2.1,0,3.7,0.8,4.8,2.4c1.2,1.6,1.7,3.8,1.7,6.6c0,2.9-0.6,5.1-1.8,6.7c-1.2,1.6-2.8,2.4-4.9,2.4
                                                                 c-2,0-3.7-0.7-4.8-2.2h-0.3L87,28h-3.6V3.7h4.8v5.6c0,0.7-0.1,1.9-0.2,3.4h0.2C89.2,11.1,90.9,10.2,93.1,10.2z
                                                                 M91.6,14
                                                                 c-1.2,0-2,0.4-2.6,1.1s-0.8,1.9-0.8,3.6v0.5c0,1.9,0.3,3.2,0.8,4s1.4,1.2,2.6,1.2c1,0,1.8-0.4,2.3-1.3c0.6-0.9,0.9-2.2,0.9-3.9
-                                                                s-0.3-3-0.9-3.9C93.4,14.5,92.6,14,91.6,14z" />
+                                                                s-0.3-3-0.9-3.9C93.4,14.5,92.6,14,91.6,14z"/>
                                     <path class="st4"
-                                        d="M115,21.7c0,2.1-0.7,3.7-2.2,4.9c-1.5,1.2-3.5,1.8-6.2,1.8c-2.4,0-4.6-0.5-6.5-1.4v-4.5
+                                          d="M115,21.7c0,2.1-0.7,3.7-2.2,4.9c-1.5,1.2-3.5,1.8-6.2,1.8c-2.4,0-4.6-0.5-6.5-1.4v-4.5
                                                                     c1.5,0.7,2.8,1.2,3.9,1.5c1.1,0.3,2,0.4,2.9,0.4c1.1,0,1.9-0.2,2.4-0.6c0.6-0.4,0.9-1,0.9-1.8c0-0.4-0.1-0.8-0.4-1.2
                                                                     c-0.3-0.3-0.6-0.7-1.1-1c-0.5-0.3-1.5-0.8-3-1.5c-1.4-0.7-2.4-1.3-3.1-1.9c-0.7-0.6-1.3-1.3-1.7-2.1c-0.4-0.8-0.6-1.7-0.6-2.8
                                                                     c0-2,0.7-3.6,2.1-4.8c1.4-1.2,3.3-1.7,5.7-1.7c1.2,0,2.3,0.1,3.4,0.4c1.1,0.3,2.2,0.7,3.4,1.2l-1.6,3.8c-1.2-0.5-2.2-0.8-3-1
                                                                     c-0.8-0.2-1.6-0.3-2.3-0.3c-0.9,0-1.6,0.2-2.1,0.6c-0.5,0.4-0.7,1-0.7,1.7c0,0.4,0.1,0.8,0.3,1.1c0.2,0.3,0.5,0.6,0.9,0.9
-                                                                    c0.4,0.3,1.5,0.8,3.1,1.6c2.1,1,3.6,2,4.4,3.1C114.7,18.9,115,20.2,115,21.7z" />
-                                    <path class="st4" d="M129.9,28h-13.1V5.2h13.1v4h-8.3v5h7.7v4h-7.7V24h8.3V28z" />
+                                                                    c0.4,0.3,1.5,0.8,3.1,1.6c2.1,1,3.6,2,4.4,3.1C114.7,18.9,115,20.2,115,21.7z"/>
+                                    <path class="st4" d="M129.9,28h-13.1V5.2h13.1v4h-8.3v5h7.7v4h-7.7V24h8.3V28z"/>
                                     <path class="st4"
-                                        d="M153,16.6c0,3.8-0.9,6.7-2.8,8.7c-1.9,2-4.6,3-8.1,3s-6.2-1-8.1-3c-1.9-2-2.8-4.9-2.8-8.7s0.9-6.7,2.8-8.7
+                                          d="M153,16.6c0,3.8-0.9,6.7-2.8,8.7c-1.9,2-4.6,3-8.1,3s-6.2-1-8.1-3c-1.9-2-2.8-4.9-2.8-8.7s0.9-6.7,2.8-8.7
                                                                             c1.9-2,4.6-3,8.1-3c3.5,0,6.2,1,8,3C152.1,9.9,153,12.8,153,16.6z
                                                                             M136.3,16.6c0,2.5,0.5,4.5,1.5,5.8s2.4,1.9,4.3,1.9
-                                                                            c3.9,0,5.8-2.6,5.8-7.7c0-5.1-1.9-7.7-5.8-7.7c-1.9,0-3.4,0.6-4.4,1.9C136.8,12.1,136.3,14,136.3,16.6z" />
+                                                                            c3.9,0,5.8-2.6,5.8-7.7c0-5.1-1.9-7.7-5.8-7.7c-1.9,0-3.4,0.6-4.4,1.9C136.8,12.1,136.3,14,136.3,16.6z"/>
                                 </g>
                             </g>
                         </svg>
-                    </a>
-                    <div class="socialIcons">
-                        <a href="https://www.instagram.com/webseo.kz/" target="_blank" rel="nofollow
+                </a>
+                <div class="socialIcons">
+                    <a href="https://www.instagram.com/webseo.kz/" target="_blank" rel="nofollow
                                                                     noopener" title="Instagram">
                             <span class="iwsvg
                                                                         btn-insta
                                                                         fs26"></span>
-                        </a>
-                        <a href="https://www.youtube.com/c/WebSEOkz?sub_confirmation=1" target="_blank" rel="nofollow
+                    </a>
+                    <a href="https://www.youtube.com/c/WebSEOkz?sub_confirmation=1" target="_blank" rel="nofollow
                                                                     noopener" title="YouTube">
                             <span class="iwsvg
                                                                         btn-youtube
                                                                         fs26"></span>
-                        </a>
-                        <a href="https://vk.com/webseokz" target="_blank" rel="nofollow
+                    </a>
+                    <a href="https://vk.com/webseokz" target="_blank" rel="nofollow
                                                                     noopener" title="ВКонтакте">
                             <span class="iwsvg
                                                                         btn-vk
                                                                         fs30"></span>
-                        </a>
-                        <a href="https://www.facebook.com/webseo.kz" target="_blank" rel="nofollow
+                    </a>
+                    <a href="https://www.facebook.com/webseo.kz" target="_blank" rel="nofollow
                                                                     noopener" title="Facebook">
                             <span class="iwsvg
                                                                         btn-fb
                                                                         fs26"></span>
-                        </a>
-                        <a href="https://telegram.me/webseokaz" target="_blank" rel="nofollow
+                    </a>
+                    <a href="https://telegram.me/webseokaz" target="_blank" rel="nofollow
                                                                     noopener" title="Telegram">
                             <span class="iwsvg
                                                                         btn-tg
                                                                         fs30"></span>
-                        </a>
-                        <a href="https://twitter.com/webseokz" target="_blank" rel="nofollow
+                    </a>
+                    <a href="https://twitter.com/webseokz" target="_blank" rel="nofollow
                                                                     noopener" title="Twitter">
                             <span class="iwsvg
                                                                         btn-twit" style="font-size:
                                                                         28px;"></span>
-                        </a>
-                    </div>
-                    <div class="dib fs13
+                    </a>
+                </div>
+                <div class="dib fs13
                                                                 copyright">Улучшатель
-                        сайтов © 2012 -
-                        2021<br>ИП Носов
-                        Михаил -
-                        серия:08915
-                        №0005817</div>
-                </footer>
-            </div>
-            <div class="clear"></div>
+                    сайтов © 2012 -
+                    2021<br>ИП Носов
+                    Михаил -
+                    серия:08915
+                    №0005817
+                </div>
+            </footer>
         </div>
-
+        <div class="clear"></div>
     </div>
 
-    <script>
+</div>
 
-        let wsdoloadm = false;
-        let wsdoloadm2 = false;
-        // let wsdoloadb = false;
-        let wswindowload = false;
-        window.addEventListener('load', function () { wswindowload = true; return true; });
+<script>
 
-        async function wsloadScript(url, async) {
-            async = async || false;
+    let wsdoloadm = false;
+    let wsdoloadm2 = false;
+    // let wsdoloadb = false;
+    let wswindowload = false;
+    window.addEventListener('load', function () {
+        wswindowload = true;
+        return true;
+    });
 
-            const wsscript = document.createElement("script");
-            wsscript.type = "text/javascript";
-            wsscript.async = (async || false);
+    async function wsloadScript(url, async) {
+        async = async || false;
 
-            return new Promise(function (done, failed) {
+        const wsscript = document.createElement("script");
+        wsscript.type = "text/javascript";
+        wsscript.async = (async || false);
+
+        return new Promise(function (done, failed) {
 
                 wsscript.onload = function () {
 
@@ -2882,59 +2885,62 @@
 
                 document.getElementsByTagName("head")[0].appendChild(wsscript);
             }
-            );
+        );
+    }
+
+
+    async function wsloadlibs() {
+        await wsloadScript("https://wseo.kz/js/wseo.js", true);
+        await lozad('.wslazy').observe();
+        console.log("wseo done");
+
+        return true;
+    }
+
+    async function wsloadlibsajax() {
+        await wsloadScript("https://wseo.kz/js/ajax-wseo.js", true);
+
+        console.log("wseoajax done");
+        return true;
+    }
+
+    async function wsloadmetrics() {
+        await wsloadScript("https://wseo.kz/js/yandex-metrika.js", true);
+        await wsloadScript("https://www.googletagmanager.com/gtag/js?id=UA-132332777-1", true);
+        await wsloadScript("https://wseo.kz/js/google-analytics.js", true);
+        await wsloadScript("https://wseo.kz/js/fb-pixel.js", true);
+
+        console.log("metrics done");
+        return true;
+    }
+
+    async function wsloadsharebuttons() {
+        await wsloadScript("https://yastatic.net/share2/share.js", true);
+
+        console.log("sharebuttons done");
+        return true;
+    }
+
+    window.addEventListener('load', wsloadlibs());
+
+
+</script>
+<script>
+
+    let poledomena = document.getElementById('js-gtm-domen');
+    if (poledomena) poledomena.onclick = wsloadlibsajax;
+
+</script>
+<script>
+    // window.addEventListener('load', function () { setTimeout(wsloadmetrics, 1500); return true; } );
+    window.addEventListener('scroll', function () {
+        if (wsdoloadm === false && wswindowload === true) {
+            wsdoloadm = true;
+            setTimeout(wsloadmetrics, 100);
         }
-
-
-        async function wsloadlibs() {
-            await wsloadScript("https://wseo.kz/js/wseo.js", true);
-            await lozad('.wslazy').observe();
-            console.log("wseo done");
-
-            return true;
-        }
-        async function wsloadlibsajax() {
-            await wsloadScript("https://wseo.kz/js/ajax-wseo.js", true);
-
-            console.log("wseoajax done");
-            return true;
-        }
-        async function wsloadmetrics() {
-            await wsloadScript("https://wseo.kz/js/yandex-metrika.js", true);
-            await wsloadScript("https://www.googletagmanager.com/gtag/js?id=UA-132332777-1", true);
-            await wsloadScript("https://wseo.kz/js/google-analytics.js", true);
-            await wsloadScript("https://wseo.kz/js/fb-pixel.js", true);
-
-            console.log("metrics done");
-            return true;
-        }
-        async function wsloadsharebuttons() {
-            await wsloadScript("https://yastatic.net/share2/share.js", true);
-
-            console.log("sharebuttons done");
-            return true;
-        }
-
-        window.addEventListener('load', wsloadlibs());
-
-
-    </script>
-    <script>
-
-        let poledomena = document.getElementById('js-gtm-domen');
-        if (poledomena) poledomena.onclick = wsloadlibsajax;
-
-    </script>
-    <script>
-        // window.addEventListener('load', function () { setTimeout(wsloadmetrics, 1500); return true; } );
-        window.addEventListener('scroll', function () {
-            if (wsdoloadm === false && wswindowload === true) {
-                wsdoloadm = true;
-                setTimeout(wsloadmetrics, 100);
-            }
-            return true;
-        });
-    </script>
+        return true;
+    });
+</script>
 </body>
 
 </html>
