@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27be7678-e734-484a-8ab8-795ad655e404" name="Default Changelist" comment="Страница статьи про .htaccess file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statiya-htaccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/statiya-htaccess.html" afterDir="false" />
-    </list>
+    <list default="true" id="27be7678-e734-484a-8ab8-795ad655e404" name="Default Changelist" comment="Поправка: pre тэг" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
       <workItem from="1623051738693" duration="1663000" />
       <workItem from="1623060296956" duration="9401000" />
       <workItem from="1623124984372" duration="1939000" />
-      <workItem from="1623141038071" duration="1379000" />
+      <workItem from="1623141038071" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit in PS">
       <created>1623053320994</created>
@@ -78,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623068652212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Поправка: pre тэг">
+      <created>1623143863033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623143863033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit in PS" />
     <MESSAGE value="Страница статьи про .htaccess file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница статьи про .htaccess file" />
+    <MESSAGE value="Поправка: pre тэг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправка: pre тэг" />
   </component>
 </project>
