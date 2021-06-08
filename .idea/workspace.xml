@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27be7678-e734-484a-8ab8-795ad655e404" name="Default Changelist" comment="My first commit in PS">
-      <change afterPath="$PROJECT_DIR$/statiya-htaccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-audit--seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-audit--seo.html" afterDir="false" />
+    <list default="true" id="27be7678-e734-484a-8ab8-795ad655e404" name="Default Changelist" comment="Страница статьи про .htaccess file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statiya-htaccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/statiya-htaccess.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +36,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +53,9 @@
       <option name="presentableId" value="Default" />
       <updated>1623051735267</updated>
       <workItem from="1623051738693" duration="1663000" />
-      <workItem from="1623060296956" duration="8121000" />
+      <workItem from="1623060296956" duration="9401000" />
+      <workItem from="1623124984372" duration="1939000" />
+      <workItem from="1623141038071" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit in PS">
       <created>1623053320994</created>
@@ -61,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623053320995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Страница статьи про .htaccess file">
+      <created>1623068625383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623068625383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Страница статьи про .htaccess file">
+      <created>1623068652212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623068652212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit in PS" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first commit in PS" />
+    <MESSAGE value="Страница статьи про .htaccess file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Страница статьи про .htaccess file" />
   </component>
 </project>

@@ -1792,8 +1792,8 @@
             </div>
             <div style="min-width: 45%; padding-left: 5vw;">
                 <img src="image-statiya/htaccess.png" style="max-width: 100%;height: auto;" width="516"
-                     height="257" class="wslazy" data-srcset="image-statiya/htaccess.png 100w
-                      100w" sizes="100vw" decoding="async"
+                     height="257" class="wslazy" data-srcset="image-statiya/htaccess.png 100w"
+                     srcset="https://wseo.pw/images/empty-300x200.svg 100w" sizes="100vw" decoding="async"
                      loading="lazy" alt="htaccess window">
             </div>
         </div>
@@ -1808,60 +1808,47 @@
         <div class="pt25 pb30">
             <h2 class="h2sect">Возможности </h2>
         </div>
-        <style>
-            code {
-                color: green;
-                font-size: 18px;
-                background-color: rgba(244, 222, 222, 0.5);
-            }
-        </style>
         <div style="font-size: 1rem;">
             <ul class="greenp">
                 <li>
                     <div>
                         <p>Вы можете изменить файл, который открывается по умолчанию в каталоге:</p>
-                        <code>DirectoryIndex welcome.html welcome.php</code>
+                        <pre>DirectoryIndex welcome.html welcome.php</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Вы можете перенаправить пользователей на собственную страницу ошибок при их
                             возникновении:</p>
-                        <code>ErrorDocument 404 /404.html <br> ErrorDocument 500 /500.html</code>
+                        <pre>ErrorDocument 404 /404.html <br> ErrorDocument 500 /500.html</pre>
                     </div>
 
                 </li>
                 <li>
                     <div>
                         <p>Чтобы удалить "WWW" из адреса вашего сайта: </p>
-                        <code>
-                            RewriteEngine On<br>
-                            RewriteBase /<br>
-                            RewriteCond %{HTTP_HOST} ^www.your-domain.com [NC]<br>
-                            RewriteRule ^(.*)$ http: //your-domain.com/$1 [L,R=301]
-                        </code>
+                        <pre>RewriteEngine On<br>RewriteBase /<br>RewriteCond %{HTTP_HOST} ^www.your-domain.com [NC]<br>RewriteRule ^(.*)$ http: //your-domain.com/$1 [L,R=301]
+                        </pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Установка часового пояса для сервера:</p>
-                        <code>SetEnv TZ Europe/London</code>
+                        <pre>SetEnv TZ Europe/London</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Если вы хотите запретить доступ конкретному IP-адресу:</p>
-                        <code>order allow,deny<br>deny from XXX.XXX.XXX.XXX <br>allow from all</code>
+                        <pre>order allow,deny<br>deny from XXX.XXX.XXX.XXX <br>allow from all</pre>
                         <p>для нескольких IP-адресов:</p>
-                        <code>allow from all <br>deny from 145.186.14.122 <br>deny from 124.15</code>
+                        <pre>allow from all <br>deny from 145.186.14.122 <br>deny from 124.15</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Вы изменили адреса страниц, но не хотите терять посетителей:</p>
-                        <code>Redirect 301 /old-directory/file.html
-                            http: //www.domain-name.com/new-directory/file.html
-                        </code>
+                        <pre>Redirect 301 /old-directory/file.html http: //www.domain-name.com/new-directory/file.html</pre>
                     </div>
                 </li>
                 <li>
@@ -1869,71 +1856,44 @@
                         <p>Определение типа устройства и перенаправление : перенаправить пользователей использующих
                             планшет к определенной веб-странице или каталогу:
                         </p>
-                        <code>
-                            RewriteCond %{HTTP_USER_AGENT} ^.*iPad.*$ <br>
-                            RewriteRule ^(.*)$ http: //your-domain.com/folder-for-tablets [R=301]<br>
-                            RewriteCond %{HTTP_USER_AGENT} ^.*Android.*$<br>
-                            RewriteRule ^(.*)$ http: //your-domain.com/folder-for-tablets [R=301]
-                        </code>
+                        <pre>RewriteCond %{HTTP_USER_AGENT} ^.*iPad.*$ <br>RewriteRule ^(.*)$ http: //your-domain.com/folder-for-tablets [R=301]<br>RewriteCond %{HTTP_USER_AGENT} ^.*Android.*$<br>RewriteRule ^(.*)$ http: //your-domain.com/folder-for-tablets [R=301]</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Если вы не хотите, чтобы картинки с вашего сайта использовали на других сайтах или просто
                             хотите уменьшить трафик:</p>
-                        <code>
-                            Options +FollowSymlinks<br>
-                            RewriteEngine On<br>
-                            RewriteCond %{HTTP_REFERER} !^$<br>
-                            RewriteCond %{HTTP_REFERER} !^http: //(www.)?domain-name.com/ [nc]<br>
-                            RewriteRule .*.(gif|jpg|png)$ http: //domain-name.com/img/hotlink_f_o.png [nc]
-                        </code>
+                        <pre>Options +FollowSymlinks<br>RewriteEngine On<br>RewriteCond %{HTTP_REFERER} !^$<br>RewriteCond %{HTTP_REFERER} !^http: //(www.)?domain-name.com/ [nc]<br>RewriteRule .*.(gif|jpg|png)$ http: //domain-name.com/img/hotlink_f_o.png [nc]</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Если вы хотите заставить пользователей загружать определенные типы файлов, а не просматривать
                             их в браузере, то вы можете использовать это:</p>
-                        <code>
-                            AddType application/octet-stream .csv <br>
-                            AddType application/octet-stream .xls<br>
-                            AddType application/octet-stream .doc<br>
-                            AddType application/octet-stream .avi<br>
-                            AddType application/octet-stream .mpg<br>
-                            AddType application/octet-stream .mov<br>
-                            AddType application/octet-stream .pdf
-                        </code>
+                        <pre>AddType application/octet-stream .csv <br>AddType application/octet-stream .xls<br>AddType application/octet-stream .doc<br>AddType application/octet-stream .avi<br>AddType application/octet-stream .mpg<br>AddType application/octet-stream .mov<br>AddType application/octet-stream .pdf
+                        </pre>
                         <p>или</p>
-                        <code>AddType application/octet-stream .avi .mpg .mov .pdf .xls .mp4</code>
+                        <pre>AddType application/octet-stream .avi .mpg .mov .pdf .xls .mp4</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Если вы хотите, чтобы ваши ссылки было немного легче читать (т.е. изменить content.php?id=92
                             на content-92.html), Вы могли бы реализовать следующие правила «переписывания»:</p>
-                        <code>
-                            RewriteEngine on<br>
-                            RewriteRule ^content-([0-9]+)\.html$ content.php?id=$1
-                        </code>
+                        <pre>RewriteEngine on<br>RewriteRule ^content-([0-9]+)\.html$ content.php?id=$1
+                        </pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Перенаправление на HTTPS версию сайта:</p>
-                        <code>
-                            RewriteEngine On<br>
-                            RewriteCond %{HTTPS} !on<br>
-                            RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-                        </code>
+                        <pre>RewriteEngine On<br>RewriteCond %{HTTPS} !on<br>RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}</pre>
                     </div>
                 </li>
                 <li>
                     <div>
                         <p>Изменение заголовков кодировки и языка:</p>
-                        <code>
-                            AddDefaultCharset UTF-8<br>
-                            DefaultLanguage en-GB
-                        </code>
+                        <pre>AddDefaultCharset UTF-8<br>DefaultLanguage en-GB</pre>
                     </div>
                 </li>
                 <li>
@@ -1941,13 +1901,7 @@
                         <p>Блокировка нежелательных ботов: при помощи следующего метода, вы можете сохранить траффик
                             путем блокирования определенных роботов и пауков, которые бродят по вашему сайту:
                         </p>
-                        <code>
-                            &lt;IfModule mod_rewrite.c &gt;<br>
-                            SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT<br>
-                            SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT<br>
-                            Deny from env=HTTP_SAFE_BADBOT<br>
-                            &lt;/ifModule &gt;
-                        </code>
+                        <pre>&lt;IfModule mod_rewrite.c &gt;<br>SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT<br>SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT<br>Deny from env=HTTP_SAFE_BADBOT<br>&lt;/ifModule &gt;</pre>
                     </div>
                 </li>
                 <li>
@@ -1955,17 +1909,7 @@
                         <p>Заблокировать доступ к определенным файлам: если вы хотите защитить определенные файлы, или
                             даже заблокировать доступ к файлу .htaccess:
                         </p>
-                        <code>
-                            IfModule mod_rewrite.c &gt;<br>
-                            &lt;Files privatefile.jpg&gt; <br>
-                            order allow,deny<br>
-                            deny from all<br>
-                            &lt;/Files&gt;<br>
-                            &lt;FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$"&gt;<br>
-                            Order Allow,Deny<br>
-                            Deny from all<br>
-                            &lt;/FilesMatch&gt;
-                        </code>
+                        <pre>IfModule mod_rewrite.c &gt;<br>&lt;Files privatefile.jpg&gt; <br>order allow,deny<br>deny from all<br>&lt;/Files&gt;<br>&lt;FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$"&gt;<br>Order Allow,Deny<br>Deny from all<br>&lt;/FilesMatch&gt;</pre>
                     </div>
                 </li>
             </ul>
@@ -1983,8 +1927,8 @@
         <div style="font-size: 1rem;">
             <div style="float:  left; margin: 0 2vw 2vw 0">
                 <img src="image-statiya/lightbulb.png" width="100" height="100" class="wslazy"
-                     data-srcset="image-statiya/lightbulb.png 100w"
-                     sizes="100vw"
+                     data-srcset="image-statiya/lightbulb.png 100w"  sizes="100vw"
+                     srcset="https://wseo.pw/images/empty-300x200.svg 100w"
                      decoding="async" loading="lazy" alt="Иконка показывающий идею">
             </div>
             <div class="pt20"></div>
@@ -2004,7 +1948,7 @@
         <div style="float: right;">
             <img src="image-statiya/easy-use.png" width="100" height="100" class="wslazy"
                  data-srcset="image-2/payment-check.png 100w"
-                 sizes="100vw"
+                 sizes="100vw" srcset="https://wseo.pw/images/empty-300x200.svg 100w"
                  decoding="async" loading="lazy" alt="Иконка указыает на страницу ">
         </div>
         <div style="font-size: 1rem;">
@@ -2026,6 +1970,80 @@
 
 <!-- end here -->
 
+<script>
+
+    let wsdoloadm = false;
+    let wsdoloadm2 = false;
+    // let wsdoloadb = false;
+    let wswindowload = false;
+    window.addEventListener('load', function () { wswindowload = true; return true; });
+
+    async function wsloadScript(url, async) {
+        async = async || false;
+
+        const wsscript = document.createElement("script");
+        wsscript.type = "text/javascript";
+        wsscript.async = (async || false);
+
+        return new Promise(function (done, failed) {
+
+                wsscript.onload = function () {
+
+                    done();
+                };
+                wsscript.onerror = function () {
+                    failed();
+                };
+                wsscript.src = url;
+
+                document.getElementsByTagName("head")[0].appendChild(wsscript);
+            }
+        );
+    }
+
+
+    async function wsloadlibs() {
+        await wsloadScript("https://wseo.pw/js/wseo.js", true);
+        await lozad('.wslazy').observe();
+        console.log("wseo done");
+
+        return true;
+    }
+    async function wsloadlibsajax() {
+        await wsloadScript("https://wseo.pw/js/ajax-wseo.js", true);
+
+        console.log("wseoajax done");
+        return true;
+    }
+    async function wsloadmetrics() {
+        await wsloadScript("https://wseo.pw/js/yandex-metrika.js", true);
+        await wsloadScript("https://www.googletagmanager.com/gtag/js?id=UA-132332777-1", true);
+        await wsloadScript("https://wseo.pw/js/google-analytics.js", true);
+        await wsloadScript("https://wseo.pw/js/fb-pixel.js", true);
+
+        console.log("metrics done");
+        return true;
+    }
+    async function wsloadsharebuttons() {
+        await wsloadScript("https://yastatic.net/share2/share.js", true);
+
+        console.log("sharebuttons done");
+        return true;
+    }
+
+    window.addEventListener('load', wsloadlibs());
+
+
+</script>
+
+
+
+<script>
+
+    let poledomena = document.getElementById('js-gtm-domen');
+    if (poledomena) poledomena.onclick = wsloadlibsajax;
+
+</script>
 
 </body>
 </html>
